@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Mota()
+comment1.params=vMed\ preco\ matricula\ loc
+comment1.target=Mota(int,\ double,\ java.lang.String,\ Localizacao)
+comment2.params=l
+comment2.target=Mota(Mota)
+comment3.params=
+comment3.target=Mota\ clone()
+comment4.params=o
+comment4.target=boolean\ equals(java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

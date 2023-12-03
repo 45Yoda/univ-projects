@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Nimbus24.Prestador>
+
+@{
+    ViewBag.Title = "Index";
+}
+<body style="background-color: beige; font-family: Verdana, Arial;">
+
+    <h2>Prestadores</h2>
+
+    <table class="table">
+        <tr>
+            <th>
+                <label>Cidade</label>
+            </th>
+            <th>
+                <label>Nome</label>
+            </th>
+            <th>
+                <label>Mail</label>
+            </th>
+            <th>
+                <label>Rating</label>
+            </th>
+            <th>
+                <label>Password</label>
+            </th>
+            <th>
+                <label>Contacto</label>
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cidade.Cidade1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.mail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.rating)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.contacto)
+                </td>
+                <td>
+                    @Html.ActionLink("Fazer Proposta", "RegistarServico", "Serviço")
+                </td>
+            </tr>
+        }
+
+    </table>
+    </body>

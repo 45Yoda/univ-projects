@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.7.5 (12607 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <bounds minlat="41.3084900" minlon="-7.7387300" maxlat="41.3093100" maxlon="-7.7356900"/>
+  <node id="896610135" visible="true" version="1" changeset="5683745" timestamp="2010-09-05T02:04:08Z" user="Bitnik" uid="40381" lat="41.3088756" lon="-7.7387009"/>
+  <node id="896610136" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:50Z" user="rtafav2" uid="602999" lat="41.3094889" lon="-7.7375462"/>
+  <node id="896610139" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:52Z" user="rtafav2" uid="602999" lat="41.3088093" lon="-7.7361410"/>
+  <node id="896610141" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:52Z" user="rtafav2" uid="602999" lat="41.3083751" lon="-7.7370466"/>
+  <node id="896610142" visible="true" version="3" changeset="25907257" timestamp="2014-10-06T22:09:44Z" user="Barrocas" uid="1131231" lat="41.3074251" lon="-7.7390182"/>
+  <node id="896610146" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:53Z" user="rtafav2" uid="602999" lat="41.3078144" lon="-7.7382138"/>
+  <node id="896610147" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:54Z" user="rtafav2" uid="602999" lat="41.3087186" lon="-7.7372205"/>
+  <node id="896610149" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:54Z" user="rtafav2" uid="602999" lat="41.3091380" lon="-7.7374116"/>
+  <node id="1708864772" visible="true" version="1" changeset="11241662" timestamp="2012-04-09T17:10:01Z" user="rtafav2" uid="602999" lat="41.3090879" lon="-7.7379325"/>
+  <node id="896610140" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:52Z" user="rtafav2" uid="602999" lat="41.3092561" lon="-7.7360674"/>
+  <way id="75953479" visible="true" version="3" changeset="25907691" timestamp="2014-10-06T22:38:06Z" user="Barrocas" uid="1131231">
+    <nd ref="896610136"/>
+    <nd ref="896610149"/>
+    <nd ref="896610147"/>
+    <nd ref="896610141"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Rua 9 de Abril"/>
+    <tag k="source" v="Bing"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="75953481" visible="true" version="3" changeset="25907691" timestamp="2014-10-06T22:38:06Z" user="Barrocas" uid="1131231">
+    <nd ref="896610135"/>
+    <nd ref="1708864772"/>
+    <nd ref="896610149"/>
+    <nd ref="896610140"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Rua 30 de Agosto"/>
+    <tag k="source" v="Bing"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+
+</osm>

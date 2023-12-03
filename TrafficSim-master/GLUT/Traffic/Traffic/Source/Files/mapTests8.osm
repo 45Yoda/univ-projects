@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.6 (4085969 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="41.3083800" minlon="-7.7386900" maxlat="41.3091400" maxlon="-7.7371500"/>
+ <node id="896603215" visible="true" version="6" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3090698" lon="-7.7388223"/>
+ <node id="896610135" visible="true" version="2" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3088642" lon="-7.7386925"/>
+ <node id="896610136" visible="true" version="4" changeset="86885820" timestamp="2020-06-19T16:19:23Z" user="RazorWind" uid="11152051" lat="41.3094660" lon="-7.7375462"/>
+ <node id="896610137" visible="true" version="3" changeset="86787114" timestamp="2020-06-17T18:19:15Z" user="RazorWind" uid="11152051" lat="41.3083100" lon="-7.7384386"/>
+ <node id="896610139" visible="true" version="4" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3087964" lon="-7.7361049"/>
+ <node id="896610140" visible="true" version="3" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3092345" lon="-7.7360590"/>
+ <node id="896610141" visible="true" version="3" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3083591" lon="-7.7370232"/>
+ <node id="896610144" visible="true" version="3" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3085716" lon="-7.7385498"/>
+ <node id="896610145" visible="true" version="3" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3085341" lon="-7.7389130"/>
+ <node id="896610146" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:53Z" user="rtafav2" uid="602999" lat="41.3078144" lon="-7.7382138"/>
+ <node id="896610147" visible="true" version="3" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3086970" lon="-7.7371901"/>
+ <node id="896610149" visible="true" version="3" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3091164" lon="-7.7373981"/>
+ <node id="1708864615" visible="true" version="2" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3080426" lon="-7.7383196"/>
+ <node id="1708864735" visible="true" version="3" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089090" lon="-7.7371025"/>
+ <node id="1708864745" visible="true" version="3" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089833" lon="-7.7362195"/>
+ <node id="1708864747" visible="true" version="2" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3090023" lon="-7.7387638"/>
+ <node id="1708864772" visible="true" version="2" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3091031" lon="-7.7376065"/>
+ <node id="1928228303" visible="true" version="4" changeset="86787114" timestamp="2020-06-17T18:19:15Z" user="RazorWind" uid="11152051" lat="41.3083046" lon="-7.7385244"/>
+ <node id="1928228304" visible="true" version="4" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3084564" lon="-7.7384288"/>
+ <node id="1928228314" visible="true" version="5" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3085277" lon="-7.7381450"/>
+ <node id="1928228329" visible="true" version="3" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3081858" lon="-7.7381004"/>
+ <node id="1928228332" visible="true" version="4" changeset="86787114" timestamp="2020-06-17T18:19:15Z" user="RazorWind" uid="11152051" lat="41.3084612" lon="-7.7387844"/>
+ <node id="1928228339" visible="true" version="4" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3082038" lon="-7.7375189"/>
+ <node id="1928228347" visible="true" version="4" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3082964" lon="-7.7381494"/>
+ <node id="1928228348" visible="true" version="4" changeset="86787114" timestamp="2020-06-17T18:19:15Z" user="RazorWind" uid="11152051" lat="41.3085038" lon="-7.7386113"/>
+ <node id="1928228349" visible="true" version="4" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3083772" lon="-7.7381216"/>
+ <node id="1928228374" visible="true" version="3" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3080984" lon="-7.7380574"/>
+ <node id="1928228385" visible="true" version="4" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3083766" lon="-7.7381838"/>
+ <node id="1928228388" visible="true" version="3" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3083127" lon="-7.7376123"/>
+ <node id="1928228389" visible="true" version="4" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3082415" lon="-7.7383251"/>
+ <node id="2185817668" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3087438" lon="-7.7389800"/>
+ <node id="2185817670" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3087958" lon="-7.7383307"/>
+ <node id="2185817674" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3090753" lon="-7.7382193"/>
+ <node id="2185817675" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3086948" lon="-7.7382953"/>
+ <node id="2185817676" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3087181" lon="-7.7381772"/>
+ <node id="2185817678" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3090883" lon="-7.7381687"/>
+ <node id="2185817681" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3090183" lon="-7.7384362"/>
+ <node id="2185817682" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3091847" lon="-7.7384529"/>
+ <node id="2185817684" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3086706" lon="-7.7388045"/>
+ <node id="2185817686" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3091874" lon="-7.7382715"/>
+ <node id="2185817687" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3088720" lon="-7.7382312"/>
+ <node id="2185817688" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3092310" lon="-7.7382348"/>
+ <node id="2185817692" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3088314" lon="-7.7387543"/>
+ <node id="2185817693" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3086364" lon="-7.7389266"/>
+ <node id="2185817695" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3093591" lon="-7.7380938"/>
+ <node id="2185817696" visible="true" version="2" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3091350" lon="-7.7379900"/>
+ <node id="7504751643" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3086774" lon="-7.7386778"/>
+ <node id="7504751644" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3086531" lon="-7.7387645"/>
+ <node id="7504751645" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3086973" lon="-7.7387864"/>
+ <node id="7504751646" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3086896" lon="-7.7388139"/>
+ <node id="7504751647" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3088119" lon="-7.7388236"/>
+ <node id="7504751648" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3087906" lon="-7.7388130"/>
+ <node id="7504751649" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3091680" lon="-7.7383456"/>
+ <node id="7504751650" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3092080" lon="-7.7383642"/>
+ <node id="7504751651" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3090981" lon="-7.7384126"/>
+ <node id="7504751652" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3090839" lon="-7.7384667"/>
+ <node id="7504751653" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3092568" lon="-7.7381363"/>
+ <node id="7504751654" visible="true" version="1" changeset="84990400" timestamp="2020-05-10T23:39:53Z" user="RazorWind" uid="11152051" lat="41.3093382" lon="-7.7381739"/>
+ <node id="7507101020" visible="true" version="2" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3081649" lon="-7.7383727"/>
+ <node id="7507101021" visible="true" version="2" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3084889" lon="-7.7371015"/>
+ <node id="7507101022" visible="true" version="2" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3082074" lon="-7.7373430"/>
+ <node id="7507101023" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3084205" lon="-7.7375172"/>
+ <node id="7507101024" visible="true" version="2" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3086605" lon="-7.7375562"/>
+ <node id="7507101025" visible="true" version="2" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3082655" lon="-7.7373882"/>
+ <node id="7507101026" visible="true" version="3" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3083076" lon="-7.7373009"/>
+ <node id="7507101028" visible="true" version="3" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3085876" lon="-7.7374386"/>
+ <node id="7507101029" visible="true" version="4" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3085780" lon="-7.7375463"/>
+ <node id="7507101033" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3087600" lon="-7.7365155"/>
+ <node id="7507101139" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3087885" lon="-7.7371567"/>
+ <node id="7507101140" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3090394" lon="-7.7372796"/>
+ <node id="7507101141" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3091487" lon="-7.7361614"/>
+ <node id="7507101142" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3088733" lon="-7.7360357"/>
+ <node id="7507101143" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3088733" lon="-7.7360676"/>
+ <node id="7507101144" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089023" lon="-7.7360874"/>
+ <node id="7507101145" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089304" lon="-7.7361230"/>
+ <node id="7507101146" visible="true" version="3" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089445" lon="-7.7361651"/>
+ <node id="7507101147" visible="true" version="4" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089511" lon="-7.7362147"/>
+ <node id="7507101148" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3088253" lon="-7.7386166"/>
+ <node id="7507101149" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3086524" lon="-7.7385399"/>
+ <node id="7507101150" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3087085" lon="-7.7378067"/>
+ <node id="7507101151" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3087485" lon="-7.7373506"/>
+ <node id="7507101152" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3087821" lon="-7.7373165"/>
+ <node id="7507101153" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3090254" lon="-7.7374274"/>
+ <node id="7507101154" visible="true" version="2" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3090425" lon="-7.7374801"/>
+ <node id="7507101155" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3090334" lon="-7.7376298"/>
+ <node id="7507101156" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3089966" lon="-7.7379112"/>
+ <node id="7507101157" visible="true" version="1" changeset="85028857" timestamp="2020-05-11T13:43:24Z" user="RazorWind" uid="11152051" lat="41.3089150" lon="-7.7382607"/>
+ <node id="7507125758" visible="true" version="2" changeset="86787114" timestamp="2020-06-17T18:19:15Z" user="RazorWind" uid="11152051" lat="41.3082620" lon="-7.7386974"/>
+ <node id="7511297064" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3089404" lon="-7.7386557"/>
+ <node id="7511297065" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3090008" lon="-7.7384438"/>
+ <node id="7511297066" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3090653" lon="-7.7382051"/>
+ <node id="7511297067" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3090975" lon="-7.7380630"/>
+ <node id="7511297068" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3091137" lon="-7.7379771"/>
+ <node id="7511297069" visible="true" version="2" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3091287" lon="-7.7378742"/>
+ <node id="7511297070" visible="true" version="2" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3091633" lon="-7.7375608"/>
+ <node id="7511297071" visible="true" version="2" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3092013" lon="-7.7375151"/>
+ <node id="7511297073" visible="true" version="2" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3093908" lon="-7.7376047"/>
+ <node id="7511297074" visible="true" version="2" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3094073" lon="-7.7376340"/>
+ <node id="7511297075" visible="true" version="2" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3094076" lon="-7.7376820"/>
+ <node id="7511297076" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3093715" lon="-7.7380603"/>
+ <node id="7511297077" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3093655" lon="-7.7381273"/>
+ <node id="7511297078" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3093494" lon="-7.7382185"/>
+ <node id="7511297079" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3093232" lon="-7.7383231"/>
+ <node id="7511297080" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3092990" lon="-7.7383982"/>
+ <node id="7511297081" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3092607" lon="-7.7384867"/>
+ <node id="7511297082" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3092043" lon="-7.7385753"/>
+ <node id="7511297083" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3091519" lon="-7.7386611"/>
+ <node id="7511297084" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3091016" lon="-7.7387040"/>
+ <node id="7511297085" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3090472" lon="-7.7387067"/>
+ <node id="7511297086" visible="true" version="1" changeset="85090540" timestamp="2020-05-12T13:49:08Z" user="RazorWind" uid="11152051" lat="41.3089867" lon="-7.7386825"/>
+ <node id="7630083461" visible="true" version="2" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3085083" lon="-7.7383630"/>
+ <node id="7644754529" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3082336" lon="-7.7380858"/>
+ <node id="7644754530" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3085674" lon="-7.7376683"/>
+ <node id="7644754531" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3084162" lon="-7.7376466"/>
+ <node id="7644754532" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3085476" lon="-7.7379136"/>
+ <node id="7644754533" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3083964" lon="-7.7378920"/>
+ <node id="7644754534" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3084891" lon="-7.7383610"/>
+ <node id="7644754535" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3084595" lon="-7.7384106"/>
+ <node id="7644754536" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3084870" lon="-7.7384185"/>
+ <node id="7644754546" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3081442" lon="-7.7382786"/>
+ <node id="7644754548" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3081294" lon="-7.7379930"/>
+ <node id="7644754550" visible="true" version="1" changeset="87002527" timestamp="2020-06-23T00:25:23Z" user="RazorWind" uid="11152051" lat="41.3082225" lon="-7.7377996"/>
+ <node id="7700562759" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089388" lon="-7.7361422"/>
+ <node id="7700562760" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3090484" lon="-7.7371890"/>
+ <node id="7700562761" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3090936" lon="-7.7371968"/>
+ <node id="7700562762" visible="true" version="2" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3091913" lon="-7.7361931"/>
+ <node id="7700562775" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3089746" lon="-7.7382854"/>
+ <node id="7700562776" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3090264" lon="-7.7380788"/>
+ <node id="7700562777" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3090584" lon="-7.7379306"/>
+ <node id="7700562778" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3090852" lon="-7.7377736"/>
+ <node id="7700562779" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3090517" lon="-7.7387972"/>
+ <node id="7700562780" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3090284" lon="-7.7387779"/>
+ <node id="7700576693" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3084353" lon="-7.7370748"/>
+ <node id="7700576694" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051" lat="41.3083902" lon="-7.7370449"/>
+ <node id="8113069559" visible="true" version="5" changeset="112027074" timestamp="2021-10-03T10:03:08Z" user="Alexmol" uid="347293" lat="41.3088605" lon="-7.7386142">
+  <tag k="access" v="yes"/>
+  <tag k="addr:country" v="PT"/>
+  <tag k="amenity" v="charging_station"/>
+  <tag k="authentication:membership_card" v="yes"/>
+  <tag k="authentication:none" v="no"/>
+  <tag k="capacity" v="2"/>
+  <tag k="fee" v="yes"/>
+  <tag k="motorcar" v="yes"/>
+  <tag k="name" v="VRL-00010"/>
+  <tag k="network" v="Mobi.E"/>
+  <tag k="opening_hours" v="24/7"/>
+  <tag k="operator" v="Dourogás"/>
+  <tag k="parking:fee" v="no"/>
+  <tag k="ref" v="VRL-00010"/>
+  <tag k="socket:type2" v="2"/>
+  <tag k="socket:type2:current" v="32"/>
+  <tag k="socket:type2:output" v="22kW"/>
+  <tag k="socket:type2:voltage" v="400"/>
+  <tag k="website" v="https://www.mobie.pt"/>
+ </node>
+ <node id="8402854296" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3087540" lon="-7.7373328"/>
+ <node id="8402854297" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3087686" lon="-7.7373182"/>
+ <node id="8402854298" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3087614" lon="-7.7373224"/>
+ <node id="8402854299" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3090410" lon="-7.7374613"/>
+ <node id="8402854300" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3090332" lon="-7.7374379"/>
+ <node id="8402854301" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3090390" lon="-7.7374487"/>
+ <node id="8402854302" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3091422" lon="-7.7377656"/>
+ <node id="8402854303" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3091686" lon="-7.7375369"/>
+ <node id="8402854304" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3091849" lon="-7.7375167"/>
+ <node id="8402854305" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3091735" lon="-7.7375249"/>
+ <node id="8402854306" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3094090" lon="-7.7376558"/>
+ <node id="8402854307" visible="true" version="1" changeset="98864176" timestamp="2021-02-07T20:04:57Z" user="RazorWind" uid="11152051" lat="41.3094023" lon="-7.7376195"/>
+ <node id="8724762957" visible="true" version="1" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3088055" lon="-7.7382816"/>
+ <node id="8724762958" visible="true" version="1" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3088584" lon="-7.7383001"/>
+ <node id="8724762990" visible="true" version="1" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3091463" lon="-7.7361853"/>
+ <node id="8724762991" visible="true" version="1" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3087963" lon="-7.7370857"/>
+ <node id="8724762992" visible="true" version="1" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089197" lon="-7.7361048"/>
+ <node id="8724762993" visible="true" version="1" changeset="104568360" timestamp="2021-05-12T11:04:22Z" user="RazorWind" uid="11152051" lat="41.3089484" lon="-7.7361886"/>
+ <node id="8848303139" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3088716" lon="-7.7375734"/>
+ <node id="8848303140" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3088813" lon="-7.7375243"/>
+ <node id="8848303141" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3089342" lon="-7.7375428"/>
+ <node id="8848303142" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3089478" lon="-7.7374739"/>
+ <node id="8848303143" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3087939" lon="-7.7374199"/>
+ <node id="8848303144" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3087706" lon="-7.7375380"/>
+ <node id="8848303145" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3090194" lon="-7.7377367"/>
+ <node id="8848303146" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3087239" lon="-7.7376306"/>
+ <node id="8848303149" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3083876" lon="-7.7371458"/>
+ <node id="8848303150" visible="true" version="1" changeset="106631210" timestamp="2021-06-19T12:54:14Z" user="RazorWind" uid="11152051" lat="41.3086020" lon="-7.7372517"/>
+ <node id="8999670180" visible="true" version="1" changeset="109538266" timestamp="2021-08-11T21:45:31Z" user="RazorWind" uid="11152051" lat="41.3086695" lon="-7.7383162"/>
+ <node id="8999670181" visible="true" version="1" changeset="109538266" timestamp="2021-08-11T21:45:31Z" user="RazorWind" uid="11152051" lat="41.3088796" lon="-7.7384011"/>
+ <way id="75953484" visible="true" version="4" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051">
+  <nd ref="896603215"/>
+  <nd ref="7700562779"/>
+  <nd ref="7700562780"/>
+  <nd ref="1708864747"/>
+  <nd ref="896610135"/>
+  <nd ref="896610144"/>
+  <nd ref="896610137"/>
+  <nd ref="7507101020"/>
+  <nd ref="1708864615"/>
+  <nd ref="896610146"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua de La Lys"/>
+  <tag k="source" v="Bing"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="824684128" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051">
+  <nd ref="896610145"/>
+  <nd ref="896610144"/>
+  <nd ref="7507101024"/>
+  <nd ref="896610147"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua Maj. António Fernandes Varão"/>
+  <tag k="source" v="Bing"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="824684132" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051">
+  <nd ref="896610147"/>
+  <nd ref="7507101021"/>
+  <nd ref="7700576693"/>
+  <nd ref="7700576694"/>
+  <nd ref="896610141"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua 9 de Abril"/>
+  <tag k="source" v="Bing"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="824684133" visible="true" version="1" changeset="87784285" timestamp="2020-07-09T21:05:17Z" user="RazorWind" uid="11152051">
+  <nd ref="896610139"/>
+  <nd ref="7507101033"/>
+  <nd ref="896610147"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua Maj. António Fernandes Varão"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="Bing"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+</osm>

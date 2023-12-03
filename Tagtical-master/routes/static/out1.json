@@ -1,0 +1,302 @@
+{
+ "teamA": {
+"name": "OC Barcelos",
+ "players": [
+{
+ "name": "Katie Torres", 
+"data":{
+ "dist":5.8,
+"vel_media":5.54,
+"vel_max":7.14
+},
+ "pos": [ 
+{"posX":3,"posY": 11,"time":0},
+{"posX":3.08,"posY": 11.09,"time":0.5},
+{"posX":3.03,"posY": 11.09,"time":1.0},
+{"posX":3.03,"posY": 11.11,"time":1.5},
+{"posX":3.19,"posY": 11.11,"time":2.0},
+{"posX":3.14,"posY": 10.96,"time":2.5},
+{"posX":3.25,"posY": 10.98,"time":3.0},
+{"posX":3.06,"posY": 11.1,"time":3.5},
+{"posX":3.11,"posY": 11.0,"time":4.0},
+{"posX":3.07,"posY": 10.89,"time":4.5},
+{"posX":3.09,"posY": 10.82,"time":5.0},
+{"posX":3.24,"posY": 10.62,"time":5.5},
+{"posX":3.35,"posY": 10.44,"time":6.0},
+{"posX":3.48,"posY": 10.6,"time":6.5},
+{"posX":3.43,"posY": 10.58,"time":7.0},
+{"posX":3.59,"posY": 10.59,"time":7.5},
+{"posX":3.4,"posY": 10.77,"time":8.0},
+{"posX":3.51,"posY": 10.9,"time":8.5},
+{"posX":3.63,"posY": 10.9,"time":9.0},
+{"posX":3.44,"posY": 11.07,"time":9.5},
+{"posX":3.31,"posY": 11.05,"time":10.0}
+] },{
+ "name": "Estela Faria", 
+"data":{
+ "dist":6.91,
+"vel_media":4.01,
+"vel_max":14.15
+},
+ "pos": [ 
+{"posX":6.5,"posY": 15.3,"time":0},
+{"posX":4.55,"posY": 16.67,"time":0.5},
+{"posX":3.99,"posY": 15.38,"time":1.0},
+{"posX":4.79,"posY": 13.79,"time":1.5},
+{"posX":6.01,"posY": 14.27,"time":2.0},
+{"posX":6.59,"posY": 14.4,"time":2.5},
+{"posX":4.67,"posY": 12.91,"time":3.0},
+{"posX":4.87,"posY": 14.51,"time":3.5},
+{"posX":5.76,"posY": 13.8,"time":4.0},
+{"posX":6.68,"posY": 12.61,"time":4.5},
+{"posX":6.3,"posY": 11.71,"time":5.0},
+{"posX":5.59,"posY": 9.82,"time":5.5},
+{"posX":6.1,"posY": 11.44,"time":6.0},
+{"posX":4.64,"posY": 12.06,"time":6.5},
+{"posX":2.68,"posY": 10.75,"time":7.0},
+{"posX":1.13,"posY": 10.02,"time":7.5},
+{"posX":1.08,"posY": 11.21,"time":8.0},
+{"posX":2.95,"posY": 11.52,"time":8.5},
+{"posX":0.97,"posY": 13.34,"time":9.0},
+{"posX":1.78,"posY": 13.9,"time":9.5},
+{"posX":2.39,"posY": 13.42,"time":10.0}
+] },{
+ "name": "Bertilde Teixeira", 
+"data":{
+ "dist":7.79,
+"vel_media":7.09,
+"vel_max":11.45
+},
+ "pos": [ 
+{"posX":19.4,"posY": 0.85,"time":0},
+{"posX":21.11,"posY": 2.55,"time":0.5},
+{"posX":21.89,"posY": 0.75,"time":1.0},
+{"posX":23.14,"posY": 2.2,"time":1.5},
+{"posX":23.85,"posY": 0.35,"time":2.0},
+{"posX":22.69,"posY": 2.14,"time":2.5},
+{"posX":22.85,"posY": 3.64,"time":3.0},
+{"posX":21.14,"posY": 3.18,"time":3.5},
+{"posX":23.08,"posY": 2.56,"time":4.0},
+{"posX":24.87,"posY": 2.23,"time":4.5},
+{"posX":26.81,"posY": 2.28,"time":5.0},
+{"posX":26.32,"posY": 1.66,"time":5.5},
+{"posX":24.58,"posY": 2.56,"time":6.0},
+{"posX":26.41,"posY": 1.93,"time":6.5},
+{"posX":24.91,"posY": 2.51,"time":7.0},
+{"posX":25.42,"posY": 4.12,"time":7.5},
+{"posX":25.37,"posY": 5.88,"time":8.0},
+{"posX":26.27,"posY": 5.07,"time":8.5},
+{"posX":27.76,"posY": 4.15,"time":9.0},
+{"posX":26.38,"posY": 4.95,"time":9.5},
+{"posX":27.56,"posY": 6.02,"time":10.0}
+] },{
+ "name": "Anais Brito", 
+"data":{
+ "dist":9.77,
+"vel_media":4.31,
+"vel_max":13.64
+},
+ "pos": [ 
+{"posX":7.91,"posY": 5.62,"time":0},
+{"posX":7.88,"posY": 3.86,"time":0.5},
+{"posX":7.3,"posY": 5.16,"time":1.0},
+{"posX":8.28,"posY": 4.6,"time":1.5},
+{"posX":6.34,"posY": 6.35,"time":2.0},
+{"posX":6.55,"posY": 5.41,"time":2.5},
+{"posX":4.85,"posY": 3.53,"time":3.0},
+{"posX":5.23,"posY": 2.34,"time":3.5},
+{"posX":4.97,"posY": 1.1,"time":4.0},
+{"posX":4.39,"posY": 0.64,"time":4.5},
+{"posX":4.77,"posY": 1.51,"time":5.0},
+{"posX":5.49,"posY": 1.0,"time":5.5},
+{"posX":3.61,"posY": 1.59,"time":6.0},
+{"posX":4.51,"posY": 0.17,"time":6.5},
+{"posX":3.21,"posY": 1.39,"time":7.0},
+{"posX":5.1,"posY": 1.24,"time":7.5},
+{"posX":6.28,"posY": 1.09,"time":8.0},
+{"posX":5.78,"posY": 2.1,"time":8.5},
+{"posX":6.64,"posY": 3.72,"time":9.0},
+{"posX":6.24,"posY": 4.02,"time":9.5},
+{"posX":5.45,"posY": 4.16,"time":10.0}
+] },{
+ "name": "Leocadia Sa", 
+"data":{
+ "dist":7.65,
+"vel_media":3.87,
+"vel_max":8.63
+},
+ "pos": [ 
+{"posX":3.19,"posY": 15.71,"time":0},
+{"posX":4.47,"posY": 16.78,"time":0.5},
+{"posX":5.86,"posY": 15.31,"time":1.0},
+{"posX":4.89,"posY": 15.09,"time":1.5},
+{"posX":5.31,"posY": 14.1,"time":2.0},
+{"posX":7.17,"posY": 13.22,"time":2.5},
+{"posX":5.86,"posY": 12.41,"time":3.0},
+{"posX":4.89,"posY": 11.6,"time":3.5},
+{"posX":5.0,"posY": 13.56,"time":4.0},
+{"posX":3.69,"posY": 12.61,"time":4.5},
+{"posX":3.42,"posY": 11.92,"time":5.0},
+{"posX":3.45,"posY": 10.21,"time":5.5},
+{"posX":1.6,"posY": 10.95,"time":6.0},
+{"posX":3.5,"posY": 10.46,"time":6.5},
+{"posX":1.55,"posY": 11.02,"time":7.0},
+{"posX":2.03,"posY": 11.59,"time":7.5},
+{"posX":2.72,"posY": 11.32,"time":8.0},
+{"posX":4.58,"posY": 11.81,"time":8.5},
+{"posX":4.18,"posY": 10.56,"time":9.0},
+{"posX":4.89,"posY": 9.67,"time":9.5},
+{"posX":5.56,"posY": 10.11,"time":10.0}
+] }] 
+},
+ "teamB": {
+"name": "UD Oliveirense",
+ "players": [
+{
+ "name": "Cinara Miranda", 
+"data":{
+ "dist":5.97,
+"vel_media":6.01,
+"vel_max":7.64
+},
+ "pos": [ 
+{"posX":41,"posY": 11,"time":0},
+{"posX":40.93,"posY": 11.11,"time":0.5},
+{"posX":40.82,"posY": 11.12,"time":1.0},
+{"posX":40.81,"posY": 11.27,"time":1.5},
+{"posX":40.75,"posY": 11.36,"time":2.0},
+{"posX":40.8,"posY": 11.25,"time":2.5},
+{"posX":40.66,"posY": 11.09,"time":3.0},
+{"posX":40.63,"posY": 11.0,"time":3.5},
+{"posX":40.78,"posY": 11.02,"time":4.0},
+{"posX":40.87,"posY": 11.05,"time":4.5},
+{"posX":40.82,"posY": 11.08,"time":5.0},
+{"posX":40.95,"posY": 11.01,"time":5.5},
+{"posX":40.94,"posY": 10.92,"time":6.0},
+{"posX":40.9,"posY": 10.73,"time":6.5},
+{"posX":40.91,"posY": 10.71,"time":7.0},
+{"posX":40.97,"posY": 10.56,"time":7.5},
+{"posX":40.83,"posY": 10.36,"time":8.0},
+{"posX":40.69,"posY": 10.19,"time":8.5},
+{"posX":40.81,"posY": 10.08,"time":9.0},
+{"posX":40.71,"posY": 10.01,"time":9.5},
+{"posX":40.8,"posY": 9.82,"time":10.0}
+] },{
+ "name": "Jitendra Fernandes", 
+"data":{
+ "dist":8.24,
+"vel_media":3.38,
+"vel_max":10.78
+},
+ "pos": [ 
+{"posX":22.13,"posY": 10.31,"time":0},
+{"posX":21.78,"posY": 11.3,"time":0.5},
+{"posX":22.56,"posY": 11.14,"time":1.0},
+{"posX":20.73,"posY": 11.73,"time":1.5},
+{"posX":21.02,"posY": 10.36,"time":2.0},
+{"posX":20.08,"posY": 10.03,"time":2.5},
+{"posX":18.27,"posY": 8.99,"time":3.0},
+{"posX":18.62,"posY": 10.27,"time":3.5},
+{"posX":16.8,"posY": 11.62,"time":4.0},
+{"posX":14.98,"posY": 10.1,"time":4.5},
+{"posX":14.51,"posY": 8.56,"time":5.0},
+{"posX":15.91,"posY": 10.18,"time":5.5},
+{"posX":16.73,"posY": 9.11,"time":6.0},
+{"posX":16.74,"posY": 7.8,"time":6.5},
+{"posX":17.95,"posY": 6.03,"time":7.0},
+{"posX":17.85,"posY": 4.36,"time":7.5},
+{"posX":17.68,"posY": 5.28,"time":8.0},
+{"posX":19.64,"posY": 4.97,"time":8.5},
+{"posX":21.17,"posY": 6.1,"time":9.0},
+{"posX":20.81,"posY": 5.75,"time":9.5},
+{"posX":21.3,"posY": 6.71,"time":10.0}
+] },{
+ "name": "Jitendra Branco", 
+"data":{
+ "dist":5.46,
+"vel_media":6.67,
+"vel_max":14.97
+},
+ "pos": [ 
+{"posX":37.74,"posY": 0.07,"time":0},
+{"posX":37.4,"posY": 2.0,"time":0.5},
+{"posX":36.3,"posY": 0.82,"time":1.0},
+{"posX":37.52,"posY": 2.25,"time":1.5},
+{"posX":36.62,"posY": 3.9,"time":2.0},
+{"posX":34.88,"posY": 4.41,"time":2.5},
+{"posX":35.48,"posY": 4.15,"time":3.0},
+{"posX":36.96,"posY": 4.67,"time":3.5},
+{"posX":36.48,"posY": 4.08,"time":4.0},
+{"posX":37.58,"posY": 3.41,"time":4.5},
+{"posX":36.66,"posY": 5.27,"time":5.0},
+{"posX":37.46,"posY": 5.24,"time":5.5},
+{"posX":38.18,"posY": 5.97,"time":6.0},
+{"posX":37.05,"posY": 6.05,"time":6.5},
+{"posX":35.99,"posY": 7.13,"time":7.0},
+{"posX":36.52,"posY": 7.54,"time":7.5},
+{"posX":35.97,"posY": 8.49,"time":8.0},
+{"posX":35.43,"posY": 9.52,"time":8.5},
+{"posX":35.42,"posY": 8.16,"time":9.0},
+{"posX":34.15,"posY": 9.82,"time":9.5},
+{"posX":35.53,"posY": 8.91,"time":10.0}
+] },{
+ "name": "Filemon Carvalho", 
+"data":{
+ "dist":6.59,
+"vel_media":3.75,
+"vel_max":7.76
+},
+ "pos": [ 
+{"posX":33.71,"posY": 1.49,"time":0},
+{"posX":34.45,"posY": 1.22,"time":0.5},
+{"posX":34.25,"posY": 2.76,"time":1.0},
+{"posX":35.89,"posY": 4.57,"time":1.5},
+{"posX":35.58,"posY": 3.99,"time":2.0},
+{"posX":36.07,"posY": 5.79,"time":2.5},
+{"posX":34.29,"posY": 4.19,"time":3.0},
+{"posX":32.61,"posY": 3.14,"time":3.5},
+{"posX":32.11,"posY": 2.31,"time":4.0},
+{"posX":31.15,"posY": 0.45,"time":4.5},
+{"posX":31.87,"posY": 1.45,"time":5.0},
+{"posX":30.52,"posY": 0.54,"time":5.5},
+{"posX":32.42,"posY": 1.72,"time":6.0},
+{"posX":32.08,"posY": 3.66,"time":6.5},
+{"posX":32.67,"posY": 2.99,"time":7.0},
+{"posX":32.96,"posY": 1.73,"time":7.5},
+{"posX":33.88,"posY": 1.9,"time":8.0},
+{"posX":35.4,"posY": 2.32,"time":8.5},
+{"posX":36.99,"posY": 3.72,"time":9.0},
+{"posX":36.41,"posY": 3.62,"time":9.5},
+{"posX":36.36,"posY": 4.97,"time":10.0}
+] },{
+ "name": "Diliana Mendes", 
+"data":{
+ "dist":8.28,
+"vel_media":4.58,
+"vel_max":9.8
+},
+ "pos": [ 
+{"posX":34.59,"posY": 1.24,"time":0},
+{"posX":33.52,"posY": 3.17,"time":0.5},
+{"posX":32.51,"posY": 4.24,"time":1.0},
+{"posX":30.92,"posY": 3.9,"time":1.5},
+{"posX":31.57,"posY": 2.22,"time":2.0},
+{"posX":30.94,"posY": 0.37,"time":2.5},
+{"posX":32.21,"posY": 2.25,"time":3.0},
+{"posX":30.69,"posY": 4.13,"time":3.5},
+{"posX":31.11,"posY": 3.03,"time":4.0},
+{"posX":29.47,"posY": 4.69,"time":4.5},
+{"posX":29.99,"posY": 4.6,"time":5.0},
+{"posX":30.95,"posY": 5.12,"time":5.5},
+{"posX":30.36,"posY": 5.24,"time":6.0},
+{"posX":28.63,"posY": 4.29,"time":6.5},
+{"posX":26.71,"posY": 4.39,"time":7.0},
+{"posX":27.88,"posY": 4.8,"time":7.5},
+{"posX":25.97,"posY": 4.28,"time":8.0},
+{"posX":24.24,"posY": 5.58,"time":8.5},
+{"posX":24.17,"posY": 4.19,"time":9.0},
+{"posX":23.52,"posY": 2.87,"time":9.5},
+{"posX":24.37,"posY": 1.64,"time":10.0}
+] }] 
+}
+ }

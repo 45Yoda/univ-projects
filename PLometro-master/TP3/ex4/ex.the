@@ -1,0 +1,1171 @@
+%baselang PT 
+%lang EN PT FR ES DE
+%inv MT Voc
+%inv USE UF
+
+%ext SN URL
+
+%desc Voc Vocabulario...
+%desc USE Use
+%desc UF Usado para
+
+%desc EN Inglês
+%desc PT Português
+%desc FR Francês
+%desc ES Espanhol
+%desc DE Alemão
+
+04 actividade política  
+BT 0 índice
+NT 0406 quadro político
+NT 0411 partido político
+NT 0416 processo eleitoral
+NT 0421 assembleia
+NT 0426 trabalhos parlamentares
+NT 0431 vida política e segurança pública
+NT 0436 poder executivo e administração pública
+
+08 relações internacionais  
+BT 0 índice
+NT 0806 política internacional
+NT 0811 política de cooperação
+NT 0816 equilíbrio internacional
+NT 0821 defesa
+
+10 comunidades europeias  
+BT 0 índice
+NT 1006 instituições da União Europeia e função pública europeia
+NT 1011 direito comunitário
+NT 1016 construção europeia
+NT 1021 finanças comunitárias
+
+12 direito  
+BT 0 índice
+NT 1206 fontes e ramos do direito
+NT 1211 direito civil
+NT 1216 direito penal
+NT 1221 justiça
+NT 1226 organização da justiça
+NT 1231 direito internacional
+NT 1236 direitos e liberdades
+
+16 actividade económica  
+BT 0 índice
+NT 1606 política económica
+NT 1611 crescimento económico
+NT 1616 regiões e política regional
+NT 1621 estrutura económica
+NT 1626 contabilidade nacional
+NT 1631 análise económica
+
+20 intercâmbios económicos e comerciais  
+BT 0 índice
+NT 2006 política comercial
+NT 2011 política aduaneira
+NT 2016 trocas comerciais
+NT 2021 comércio internacional
+NT 2026 consumo
+NT 2031 comercialização
+NT 2036 distribuição comercial
+
+24 finanças  
+BT 0 índice
+NT 2406 relações monetárias
+NT 2411 economia monetária
+NT 2416 instituições financeiras e crédito
+NT 2421 livre circulação de capitais
+NT 2426 financiamento e investimento
+NT 2431 seguros
+NT 2436 finanças públicas e política orçamental
+NT 2441 orçamento
+NT 2446 fiscalidade
+NT 2451 preços
+
+28 questões sociais  
+BT 0 índice
+NT 2806 família
+NT 2811 migrações
+NT 2816 demografia e população
+NT 2821 quadro social
+NT 2826 vida social
+NT 2831 cultura e religião
+NT 2836 protecção social
+NT 2841 saúde
+NT 2846 urbanismo e construção civil
+
+32 educação e comunicação  
+BT 0 índice
+NT 3206 educação
+NT 3211 ensino
+NT 3216 organização do ensino
+NT 3221 documentação
+NT 3226 comunicação
+NT 3231 informação e tratamento da informação
+NT 3236 informática e processamento de dados
+
+36 ciências  
+BT 0 índice
+NT 3606 ciências naturais e aplicadas
+NT 3611 ciências humanas
+
+40 empresas e concorrência  
+BT 0 índice
+NT 4006 organização de empresas
+NT 4011 tipos de empresa
+NT 4016 forma jurídica de sociedade
+NT 4021 gestão administrativa
+NT 4026 gestão contabilística
+NT 4031 concorrência
+
+44 emprego e trabalho  
+BT 0 índice
+NT 4406 emprego
+NT 4411 mercado do trabalho
+NT 4416 condições e organização do trabalho
+NT 4421 administração e remuneração do pessoal
+NT 4426 relações laborais e direito do trabalho
+
+48 transportes  
+BT 0 índice
+NT 4806 política de transportes
+NT 4811 organização dos transportes
+NT 4816 transporte terrestre
+NT 4821 transporte marítimo e fluvial
+NT 4826 transporte aéreo e espacial
+
+52 meio ambiente  
+BT 0 índice
+NT 5206 política ambiental
+NT 5211 meio natural
+NT 5216 degradação do ambiente
+
+56 agricultura, silvicultura e pesca  
+BT 0 índice
+NT 5606 política agrícola
+NT 5611 produção e estruturas agrícolas
+NT 5616 sistema de exploração agrícola
+NT 5621 exploração agrícola
+NT 5626 meios de produção agrícola
+NT 5631 actividade agrícola
+NT 5636 floresta
+NT 5641 pesca
+
+60 agro-alimentar  
+BT 0 índice
+NT 6006 produto vegetal
+NT 6011 produto animal
+NT 6016 produto agrícola transformado
+NT 6021 bebidas e açúcar
+NT 6026 produto alimentar
+NT 6031 agro-alimentar
+NT 6036 tecnologia alimentar
+
+64 produção, tecnologia e investigação  
+BT 0 índice
+NT 6406 produção
+NT 6411 tecnologia e regulamentação técnica
+NT 6416 investigação e propriedade intelectual
+
+66 energia  
+BT 0 índice
+NT 6606 política energética
+NT 6611 indústrias carbonífera e mineira
+NT 6616 indústria petrolífera
+NT 6621 indústrias nuclear e eléctrica
+NT 6626 energia não poluente
+
+68 indústria  
+BT 0 índice
+NT 6806 política e estruturas industriais
+NT 6811 química
+NT 6816 metalurgia e siderurgia
+NT 6821 indústria mecânica
+NT 6826 electrónica e electrotécnica
+NT 6831 construção civil
+NT 6836 indústria da madeira
+NT 6841 indústria do couro e têxtil
+NT 6846 indústrias diversas
+
+72 geografia  
+BT 0 índice
+NT 7206 Europa e antiga União Soviética
+NT 7211 regiões dos países da Comunidade
+NT 7216 América
+NT 7221 África
+NT 7226 Ásia-Oceânia
+NT 7231 geografia económica
+NT 7236 geografia política
+NT 7241 países e territórios ultramarinos
+
+76 organizações internacionais  
+BT 0 índice
+NT 7606 Nações Unidas
+NT 7611 organizações europeias
+NT 7616 organizações extra-europeias
+NT 7621 organizações intergovernamentais
+NT 7626 organizações não governamentais
+
+Aarhus
+MT 7211 regiões dos países da Comunidade
+BT regiões da Dinamarca
+
+abacate
+USE fruto tropical 
+MMT (6006)
+
+abaixamento da taxa fiscal
+USE dedução fiscal 
+MMT (2446)
+
+venda abaixo do custo
+USE venda com prejuízo 
+MMT (2031)
+
+criança abandonada 
+MMT (2806)
+
+terra abandonada 
+MMT (5621)
+
+abandono da energia nuclear
+USE política nuclear 
+MMT (6621)
+
+abandono da escolaridade
+USE abandono escolar 
+MMT (3206)
+
+abandono de exploração agrícola
+MT 5611 produção e estruturas agrícolas
+UF cessação de actividade agrícola
+UF indemnização vitalícia de partida
+BT política das estruturas agrícolas
+RT cessação de actividade
+RT FEOGA
+
+abandono do nuclear
+USE política nuclear 
+MMT (6621)
+
+abandono do processo
+USE processo judicial 
+MMT (1221)
+
+abandono dos estudos
+USE abandono escolar 
+MMT (3206)
+
+abandono escolar
+MT 3206 educação
+UF abandono da escolaridade
+UF abandono dos estudos
+UF interrupção dos estudos
+BT duração dos estudos
+
+prémio de abandono
+USE suspensão de cultivo 
+MMT (5611)
+
+zona ameaçada de abandono
+USE zona agrícola desfavorecida 
+MMT (5606)
+
+abastecimento
+MT 2016 trocas comerciais
+NT auto-abastecimento
+NT balanço de abastecimento
+NT penúria
+NT segurança de abastecimento
+RT aprovisionamento energético
+RT fornecedor
+
+balanço de abastecimento 
+MMT (2016)
+
+abastecimento de água
+MT 2846 urbanismo e construção civil
+UF aprovisionamento de água
+UF condução de água
+BT infra-estrutura urbana
+RT ordenamento hídrico
+RT recursos hídricos
+
+abastecimento de armas
+MT 0821 defesa
+UF fornecimento de armas
+BT política de armamento
+
+dificuldades de abastecimento
+USE segurança de abastecimento 
+MMT (2016)
+
+abastecimento energético
+USE aprovisionamento energético 
+MMT (6606)
+
+segurança de abastecimento 
+MMT (2016)
+
+animal para abate 
+MMT (5631)
+
+abate de animais
+MT 6036 tecnologia alimentar
+UF abate de gado
+UF atordoamento do animal
+BT tecnologia alimentar
+RT BSE
+RT indústria de carne
+RT pecuária
+RT prémio de abate
+
+abate de gado
+USE abate de animais 
+MMT (6036)
+
+prémio de abate 
+MMT (5611)
+
+aves abatidas
+USE aves mortas 
+MMT (5631)
+
+abatimento fiscal
+USE dedução fiscal 
+MMT (2446)
+
+Abcásia
+USE Geórgia 
+MMT (7206+7236)
+
+criação de abelhas
+USE apicultura 
+MMT (5631)
+
+lista aberta composta
+USE lista composta 
+MMT (0416)
+
+escola aberta
+USE pedagogia moderna 
+MMT (3206)
+
+lista aberta 
+MMT (0416)
+
+universidade aberta 
+MMT (3211)
+
+exploração a céu aberto
+USE exploração mineira 
+MMT (6611)
+
+abertura de concurso público
+USE apresentação de propostas a concurso 
+MMT (2006)
+
+abertura de contingente pautal
+USE contingente pautal 
+MMT (2011)
+
+abertura de negociação
+USE negociação internacional 
+MMT (0806)
+
+horário de abertura do comércio 
+MMT (2006)
+
+abeto
+USE conífera 
+MMT (5636)
+
+Acordo ABM 
+MMT (0816)
+
+abóbora
+USE legume de fruto 
+MMT (6006)
+
+abono complementar
+MT 2836 protecção social
+UF prestação complementar
+BT prestação social
+
+abono de família
+USE prestação familiar 
+MMT (2836)
+
+subsídio e abono de secretariado 
+MMT (0421)
+
+abono escolar
+USE subsídio de estudos 
+MMT (3216)
+
+subsídio e abono parlamentares 
+MMT (0421)
+
+aborígene
+USE população autóctone 
+MMT (2816)
+
+aborto
+MT 2806 família
+UF aborto espontâneo
+UF aborto legal
+UF aborto natural
+UF interrupção de gravidez
+UF interrupção voluntária de gravidez
+BT controlo da natalidade
+NT aborto ilegal
+NT aborto terapêutico
+
+aborto espontâneo
+USE aborto 
+MMT (2806)
+
+aborto ilegal
+MT 2806 família
+BT aborto
+
+aborto legal
+USE aborto 
+MMT (2806)
+
+aborto natural
+USE aborto 
+MMT (2806)
+
+aborto terapêutico
+MT 2806 família
+BT aborto
+
+dicionário de abreviaturas 
+MMT (3221)
+
+Abruzos
+MT 7211 regiões dos países da Comunidade
+UF Abruzzo
+BT regiões de Itália
+
+Abruzzo
+USE Abruzos 
+MMT (7211)
+
+Abs
+USE dispositivo de segurança 
+MMT (4811)
+
+absentismo
+MT 4416 condições e organização do trabalho
+BT psicologia do trabalho
+
+maioria absoluta 
+MMT (0416)
+
+monarquia absoluta
+USE monocracia 
+MMT (0406)
+
+absorção de empresas
+USE fusão de empresas 
+MMT (4006)
+
+abstencionismo
+MT 0416 processo eleitoral
+BT votação
+
+Abu Dhabi
+MT 7236 geografia política
+BT territórios dos Emiratos Árabes Unidos
+
+sociedade de abundância
+USE sociedade de consumo 
+MMT (2026)
+
+cláusula abusiva 
+MMT (1211)
+
+prática comercial abusiva
+USE restrição de concorrência 
+MMT (4031)
+
+publicidade abusiva 
+MMT (4031)
+
+despedimento abusivo 
+MMT (4406)
+
+abuso de confiança
+MT 1216 direito penal
+BT crime contra os bens
+
+abuso de confiança
+
+abuso de direito
+
+abuso de direito
+MT 1211 direito civil
+BT direito civil
+
+abuso de poder
+MT 1211 direito civil
+UF desvio de poder
+BT direito civil
+RT recurso de anulação
+
+abuso de posição dominante
+USE posição dominante 
+MMT (4031)
+
+abuso sexual
+USE violência sexual 
+MMT (1216)
+
+produto acabado
+USE produto manufacturado 
+MMT (6806)
+
+acabamento dos metais
+USE revestimento de metais 
+MMT (6816)
+
+acção
+USE acção financeira 
+MMT (2421)
+
+plano de acção a favor dos consumidores
+USE protecção do consumidor 
+MMT (2026)
+
+acção civil
+SN Acção através da qual a vítima ou os seus representantes tentam obter uma reparação pelos danos que lhe tenham sido infligidos devido a uma infracção.
+MT 1221 justiça
+BT acção em matéria penal
+RT dano
+RT indemnização
+RT infracção
+RT vítima
+
+acção comum
+SN Utilizar para as acções decididas pelo Conselho no âmbito da cooperação intergovernamental UE. Não confundir com acção comunitária.
+MT 1016 construção europeia
+BT cooperação intergovernamental UE
+
+acção comunitária
+MT 1016 construção europeia
+BT actividade comunitária
+NT iniciativa comunitária
+NT iniciativa para o crescimento europeu
+NT programa comunitário
+NT projecto de interesse comunitário
+
+acção contra as práticas concertadas
+USE regulamentação de acordos e práticas concertadas
+MMT (4031)
+
+acção contra os monopólios
+USE regulamentação de acordos e práticas concertadas
+MMT (4031)
+
+acção de pesquisa
+USE programa de investigação 
+MMT (6416)
+
+acção de responsabilidade civil
+MT 1221 justiça
+BT acção em matéria civil
+RT responsabilidade
+
+acção disciplinar
+USE processo disciplinar 
+MMT (0436)
+
+acção em matéria civil
+MT 1221 justiça
+BT acção judicial
+NT acção de responsabilidade civil
+
+acção em matéria penal
+MT 1221 justiça
+BT acção judicial
+NT acção civil
+NT acção penal
+RT direito penal
+RT responsabilidade penal
+
+acção financeira
+MT 2421 livre circulação de capitais
+UF acção
+BT valores mobiliários
+RT accionariato operário
+RT accionista
+RT rendimento do investimento
+RT sociedade comercial
+
+zona de acção integrada
+USE programa de desenvolvimento integrado 
+MMT (1616)
+
+acção judicial
+MT 1221 justiça
+UF acção judiciária
+UF instância judicial
+UF litígio
+NT acção em matéria civil
+NT acção em matéria penal
+NT recurso contencioso administrativo
+NT recurso contencioso comunitário
+
+acção judiciária
+USE acção judicial 
+MMT (1221)
+
+auxiliar de acção médica
+USE profissão paramédica 
+MMT (2841)
+
+acção penal
+SN Acção apresentada a uma jurisdição penal com o objectivo de aplicar penas ou medidas de segurança ao autor de uma infracção.
+MT 1221 justiça
+BT acção em matéria penal
+RT ministério público
+
+plano de acção
+USE programa de acção 
+MMT (4021)
+
+acção por incumprimento
+SN Recurso introduzido contra os Estados que não respeitam as obrigações impostas pelos tratados ou pelos regulamentos.
+MT 1221 justiça
+UF recurso por incumprimento de Estado
+BT recurso contencioso comunitário
+RT processo CE de infracção
+RT queixa à Comissão
+
+acção por omissão
+SN Contra o Conselho ou a Comissão quando estas instituições se abstêm de tomar posição num assunto pertencente ao domínio das suas competências.
+MT 1221 justiça
+UF recurso por omissão comunitário
+BT recurso contencioso comunitário
+
+acção por responsabilidade CE
+MT 1221 justiça
+BT recurso contencioso comunitário
+
+prescrição de acção 
+MMT (1221)
+
+acção prioritária
+USE prioridade económica 
+MMT (1606)
+
+programa de acção 
+MMT (4021)
+
+accionariato operário
+SN Participação dos operários no capital e nos resultados da empresa.
+MT 4426 relações laborais e direito do trabalho
+UF acções detidas pelos operários
+BT participação dos trabalhadores
+RT acção financeira
+
+accionista
+MT 4006 organização de empresas
+BT sócio
+RT acção financeira
+RT protecção dos sócios
+RT sociedade de capitais
+
+acções detidas pelos operários
+USE accionariato operário 
+MMT (4426)
+
+acções e recursos
+SN Utilizar para recursos efectuados junto de uma autoridade administrativa com vista a anular, alterar ou fazer retirar uma decisão tomada pela administração. Não confundir com o contencioso administrativo.
+MT 0436 poder executivo e administração pública
+UF recurso judicial
+BT relação administração-administrado
+RT acto administrativo
+RT recurso contencioso administrativo
+
+sociedade em comandita por acções
+USE sociedade em comandita 
+MMT (4016)
+
+sociedade por acções
+USE sociedade de capitais 
+MMT (4016)
+
+industrialização acelerada
+USE industrialização 
+MMT (6806)
+
+acelerador de partículas
+USE tecnologia nuclear 
+MMT (6621)
+
+acelga
+USE legume de folha 
+MMT (6006)
+
+acerto dos salários
+USE ajustamento salarial 
+MMT (4421)
+
+acervo comunitário
+SN O acervo comunitário constitui a base comum de direitos e
+   obrigações que vinculam todos os Estados-Membros a título
+   da União Europeia. Os países candidatos devem aceitar o
+   acervo comunitário antes da sua adesão à União Europeia.
+MT 1016 construção europeia
+BT situação CE
+
+acesso à educação
+MT 3206 educação
+BT política da educação
+RT direito à educação
+RT igualdade de tratamento
+
+acesso à informação
+MT 3231 informação e tratamento da informação
+UF circulação da informação
+UF informação do público
+BT política de informação
+NT confidencialidade
+NT difusão restrita
+RT acesso à informação comunitária
+RT comunicação de dados
+RT difusão da informação
+RT direito à informação
+RT direito da informática
+RT sistema documental
+RT suporte de informação
+RT transparência administrativa
+RT utilizador da informação
+
+acesso à informação comunitária
+
+acesso à informação comunitária
+MT 1006 instituições da União Europeia e função pública europeia
+BT transparência do processo de decisão
+RT acesso à informação
+
+acesso à justiça
+MT 1221 justiça
+NT assistência judiciária
+NT capacidade processual
+NT justiça de proximidade
+RT direito à justiça
+
+acesso à profissão
+MT 4406 emprego
+BT política do emprego
+
+acesso à propriedade
+USE aquisição de propriedade 
+MMT (1211)
+
+acesso ao emprego
+MT 4411 mercado do trabalho
+UF acesso ao mercado do trabalho
+UF oportunidade de emprego
+UF perspectiva de emprego
+UF possibilidades do mercado de trabalho
+BT mercado do trabalho
+RT empresa de inserção
+RT igualdade de tratamento
+RT inserção profissional
+
+acesso ao mercado
+MT 2006 política comercial
+UF saída comercial
+BT política comercial
+
+acesso ao mercado do trabalho
+USE acesso ao emprego 
+MMT (4411)
+
+acesso aos cuidados de saúde
+USE direito à saúde 
+MMT (1236)
+
+direito de acesso
+USE servidão 
+MMT (1211)
+
+direitos de acesso
+USE aquisição de propriedade 
+MMT (1211)
+
+fornecedor de acesso 
+MMT (3226)
+
+captura acessória 
+MMT (5641)
+
+vantagem acessória 
+MMT (4421)
+
+acessório automóvel
+USE equipamento do veículo 
+MMT (4811)
+
+rendimento acessório
+USE rendimento complementar 
+MMT (4421)
+
+peças e acessórios
+USE peça avulsa 
+MMT (6821)
+
+privilégios acessórios
+USE vantagem acessória 
+MMT (4421)
+
+acetato
+USE ácido orgânico 
+MMT (6811)
+
+ácido acético
+USE ácido orgânico 
+MMT (6811)
+
+acetileno
+USE hidrocarboneto 
+MMT (6616)
+
+carburante acetono-butílico
+USE combustível de substituição 
+MMT (6606)
+
+aciaria
+USE indústria siderúrgica 
+MMT (6816)
+
+aciaria eléctrica
+USE indústria siderúrgica 
+MMT (6816)
+
+chuva ácida 
+MMT (5216)
+
+poluição acidental 
+MMT (5216)
+
+cobertura dos riscos de acidente
+USE seguro de acidentes 
+MMT (2431)
+
+acidente de trabalho
+MT 4416 condições e organização do trabalho
+BT segurança no trabalho
+RT deficiente
+RT mortalidade profissional
+RT seguro de acidente de trabalho
+
+indemnização por acidente de trabalho
+USE seguro de acidente de trabalho 
+MMT (2836)
+
+seguro de acidente de trabalho 
+MMT (2836)
+
+acidente de transporte
+MT 4806 política de transportes
+BT segurança dos transportes
+RT prevenção de acidentes
+RT primeiros socorros
+RT seguro de acidentes
+RT seguro de transportes
+
+acidente doméstico
+MT 2826 vida social
+UF prevenção de acidentes domésticos
+UF segurança doméstica
+BT problema social
+RT segurança dos edifícios
+
+acidente nuclear
+MT 6621 indústrias nuclear e eléctrica
+UF acidente radioactivo
+UF danos nucleares
+UF risco de contaminação radioactiva
+UF risco radioactivo
+UF riscos nucleares
+UF sabotagem nuclear
+BT segurança nuclear
+RT efluente radiactivo
+RT poluição acidental
+RT poluição radioactiva
+RT prevenção de riscos
+
+acidente químico
+MT 6811 química
+BT indústria química
+
+acidente radioactivo
+USE acidente nuclear 
+MMT (6621)
+
+prevenção de acidentes domésticos
+USE acidente doméstico 
+MMT (2826)
+
+prevenção de acidentes 
+MMT (2841)
+
+seguro de acidentes 
+MMT (2431)
+
+acidificação
+SN Acidificação da água, do solo e da vegetação mediante a
+   deposição de poluentes acidificantes: dióxido de enxofre,
+
+óxidos de azoto e amoníaco.
+MT 5216 degradação do ambiente
+UF acidificação do ambiente
+BT poluição
+RT chuva ácida
+RT desertificação
+RT seca
+
+acidificação do ambiente
+USE acidificação 
+MMT (5216)
+
+ácido
+MT 6811 química
+BT composto químico
+NT ácido inorgânico
+
+ácido acético
+USE ácido orgânico 
+MMT (6811)
+
+ácido acrílico
+USE ácido orgânico 
+MMT (6811)
+
+ácido aromático
+USE ácido orgânico 
+MMT (6811)
+
+ácido cítrico
+USE ácido orgânico 
+MMT (6811)
+
+ácido clorídrico
+USE ácido inorgânico 
+MMT (6811)
+
+ácido desoxirribonucleico
+USE ADN 
+MMT (3606)
+
+ácido esteárico
+USE ácido orgânico 
+MMT (6811)
+
+ácido fórmico
+USE ácido orgânico 
+MMT (6811)
+
+ácido fosfórico
+USE ácido inorgânico 
+MMT (6811)
+
+ácido ftálico
+USE ácido orgânico 
+MMT (6811)
+
+ácido gordo
+USE ácido orgânico 
+MMT (6811)
+
+ácido inorgânico
+MT 6811 química
+UF ácido clorídrico
+UF ácido fosfórico
+UF ácido nítrico
+UF ácido sulfúrico
+BT ácido
+
+ácido nítrico
+USE ácido inorgânico 
+MMT (6811)
+
+ácido orgânico
+MT 6811 química
+UF acetato
+UF ácido acético
+UF ácido acrílico
+UF ácido aromático
+UF ácido cítrico
+UF ácido esteárico
+UF ácido fórmico
+UF ácido ftálico
+UF ácido gordo
+UF ácido oxálico
+UF ácido salicílico
+UF éster
+BT produto químico orgânico
+
+ácido oxálico
+USE ácido orgânico 
+MMT (6811)
+
+ácido salicílico
+USE ácido orgânico 
+MMT (6811)
+
+ácido sulfúrico
+USE ácido inorgânico 
+MMT (6811)
+
+AcNUR
+MT 7606 Nações Unidas
+UF Alto Comissariado das Nações Unidas para os
+
+Refugiados
+BT sistema das Nações Unidas
+RT refugiado
+
+aço
+MT 6816 metalurgia e siderurgia
+UF aço bruto
+UF aço fino
+UF aço inoxidável
+UF aço laminado
+UF aço para construção civil
+BT produto siderúrgico
+
+aço bruto
+USE aço 
+MMT (6816)
+
+Comunidade Europeia do Carvão e do Aço
+USE CECA 
+MMT (1016)
+
+construção metálica em aço
+USE construção metálica 
+MMT (6831)
+
+aço especial
+USE aços especiais 
+MMT (6816)
+
+fabrico de aço
+USE indústria siderúrgica 
+MMT (6816)
+
+aço fino
+USE aço 
+MMT (6816)
+
+indústria do aço
+USE indústria siderúrgica 
+MMT (6816)
+
+aço inoxidável
+USE aço 
+MMT (6816)
+
+aço laminado
+USE aço 
+MMT (6816)
+
+aço para construção civil
+USE aço 
+MMT (6816)
+
+centro de acolhimento
+USE equipamento social 
+MMT (2836)
+
+documento de acompanhamento
+USE documento de transporte 
+MMT (4806)
+
+produto acondicionado
+USE produto embalado 
+MMT (2031)
+
+acondicionamento
+MT 2031 comercialização
+NT embalagem
+NT engarrafamento
+NT pré-embalagem
+NT produto a granel
+NT produto embalado
+NT rotulagem
+RT tecnologia alimentar
+
+consultadoria e aconselhamento 
+MMT (6846)
+
+acontecimento cultural
+USE manifestação cultural 
+MMT (2831)
+
+participação comunitária num acontecimento cultural,
+USE patrocínio comunitário 
+MMT (1016)
+
+participação comunitária num acontecimento desportivo,
+USE patrocínio comunitário 
+MMT (1016)
+
+acórdão
+USE julgamento 
+MMT (1221)
+
+acórdão do Tribunal
+USE julgamento 
+MMT (1221)
+
+acórdão do Tribunal CE
+MT 1011 direito comunitário
+UF acórdão do Tribunal de Justiça
+UF acórdão TJ
+BT jurisprudência CE
+
+acórdão do Tribunal de Justiça
+USE acórdão do Tribunal CE 
+MMT (1011)
+
+acórdão TJ
+USE acórdão do Tribunal CE 
+MMT (1011)
+
+Acordo ABM
+MT 0816 equilíbrio internacional
+BT limitação de armamento
+
+adesão a um acordo 
+MMT (0806)
+
+Acordo ADN
+SN Acordo europeu relativo ao transporte internacional de
+   mercadorias perigosas em via navegável interior.
+MT 4821 transporte marítimo e fluvial
+UF Acordo ADNR
+UF acordo sobre o transporte de mercadorias perigosas
+UF regulamento relativo ao transporte no Reno de
+
+matérias perigosas
+BT navegação fluvial
+
+Acordo ADNR
+USE Acordo ADN 
+MMT (4821)
+
+Acordo ADR
+SN Acordo europeu relativo ao transporte internacional de
+   mercadorias perigosas por estrada.
+MT 4816 transporte terrestre
+UF ADR
+BT transporte rodoviário
+RT transporte de mercadorias perigosas
+

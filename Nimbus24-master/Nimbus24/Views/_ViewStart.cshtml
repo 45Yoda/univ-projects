@@ -1,0 +1,22 @@
+﻿@{
+    var controller = HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"].ToString();
+    string cLayout = "";
+
+    if (!this.User.Identity.IsAuthenticated)
+    {
+        cLayout = "~/Views/Shared/_Layout.cshtml";
+    }
+    else
+    {
+        if(controller == "Clientes")
+        {
+            cLayout = "~/Views/Shared/ClientesLayout.cshtml";
+        }
+        else
+        {
+            cLayout = "~/Views/Shared/PrestadoresLayout.cshtml";
+        }
+    }
+
+    Layout = cLayout;
+}

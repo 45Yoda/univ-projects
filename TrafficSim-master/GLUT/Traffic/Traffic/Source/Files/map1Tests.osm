@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.1 (29507 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="41.3166500" minlon="-7.7434100" maxlat="41.3191300" maxlon="-7.7394500"/>
+ <node id="1754714545" visible="true" version="3" changeset="25591967" timestamp="2014-09-22T00:15:04Z" user="ricar_gonçalves" uid="2322965" lat="41.3154933" lon="-7.7331691"/>
+ <node id="1754714549" visible="true" version="3" changeset="13622292" timestamp="2012-10-24T23:04:45Z" user="United600" uid="785520" lat="41.3179809" lon="-7.7418789"/>
+ <node id="1754714563" visible="true" version="2" changeset="13622292" timestamp="2012-10-24T23:04:45Z" user="United600" uid="785520" lat="41.3155269" lon="-7.7358799"/>
+ <node id="1754714565" visible="true" version="2" changeset="13622292" timestamp="2012-10-24T23:04:46Z" user="United600" uid="785520" lat="41.3154183" lon="-7.7352645"/>
+ <node id="1754714574" visible="true" version="3" changeset="13622292" timestamp="2012-10-24T23:04:45Z" user="United600" uid="785520" lat="41.3157200" lon="-7.7364173"/>
+ <node id="1754714576" visible="true" version="2" changeset="13023480" timestamp="2012-09-07T14:22:22Z" user="GIS_Update" uid="653971" lat="41.3159900" lon="-7.7378359"/>
+ <node id="1754714585" visible="true" version="3" changeset="13622292" timestamp="2012-10-24T23:04:46Z" user="United600" uid="785520" lat="41.3175807" lon="-7.7411329"/>
+ <node id="1754714587" visible="true" version="3" changeset="13622292" timestamp="2012-10-24T23:04:45Z" user="United600" uid="785520" lat="41.3174119" lon="-7.7404638"/>
+ <node id="1754714591" visible="true" version="2" changeset="13622292" timestamp="2012-10-24T23:04:45Z" user="United600" uid="785520" lat="41.3181075" lon="-7.7422621"/>
+ <node id="1904287100" visible="true" version="1" changeset="13023480" timestamp="2012-09-07T14:22:18Z" user="GIS_Update" uid="653971" lat="41.3154548" lon="-7.7339376"/>
+ <node id="1904287115" visible="true" version="1" changeset="13023480" timestamp="2012-09-07T14:22:18Z" user="GIS_Update" uid="653971" lat="41.3154248" lon="-7.7347212"/>
+ <node id="1904287217" visible="true" version="1" changeset="13023480" timestamp="2012-09-07T14:22:20Z" user="GIS_Update" uid="653971" lat="41.3154714" lon="-7.7335034"/>
+ <node id="1904291712" visible="true" version="2" changeset="13622292" timestamp="2012-10-24T23:04:46Z" user="United600" uid="785520" lat="41.3180308" lon="-7.7420899"/>
+ <node id="1982136536" visible="true" version="1" changeset="13622292" timestamp="2012-10-24T23:04:44Z" user="United600" uid="785520" lat="41.3157846" lon="-7.7366273"/>
+ <node id="1982136537" visible="true" version="1" changeset="13622292" timestamp="2012-10-24T23:04:44Z" user="United600" uid="785520" lat="41.3159226" lon="-7.7375606"/>
+ <node id="1982136538" visible="true" version="1" changeset="13622292" timestamp="2012-10-24T23:04:44Z" user="United600" uid="785520" lat="41.3175410" lon="-7.7410383"/>
+ <node id="1982136539" visible="true" version="1" changeset="13622292" timestamp="2012-10-24T23:04:44Z" user="United600" uid="785520" lat="41.3174555" lon="-7.7405653"/>
+ <node id="1982136540" visible="true" version="1" changeset="13622292" timestamp="2012-10-24T23:04:44Z" user="United600" uid="785520" lat="41.3164606" lon="-7.7388538"/>
+ <node id="1982136541" visible="true" version="3" changeset="35676877" timestamp="2015-11-30T23:46:05Z" user="Barrocas" uid="1131231" lat="41.3154931" lon="-7.7332319">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="1982136542" visible="true" version="1" changeset="13622292" timestamp="2012-10-24T23:04:44Z" user="United600" uid="785520" lat="41.3154151" lon="-7.7349747">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="1982136543" visible="true" version="1" changeset="13622292" timestamp="2012-10-24T23:04:44Z" user="United600" uid="785520" lat="41.3161107" lon="-7.7381641"/>
+ <node id="1982136547" visible="true" version="1" changeset="13622292" timestamp="2012-10-24T23:04:44Z" user="United600" uid="785520" lat="41.3154583" lon="-7.7355992"/>
+<way id="187555296" visible="true" version="3" changeset="66625673" timestamp="2019-01-25T09:20:57Z" user="Hispadat" uid="219376">
+  <nd ref="1754714545"/>
+  <nd ref="1982136541"/>
+  <nd ref="1904287217"/>
+  <nd ref="1904287100"/>
+  <nd ref="1904287115"/>
+  <nd ref="1982136542"/>
+  <nd ref="1754714565"/>
+  <nd ref="1982136547"/>
+  <nd ref="1754714563"/>
+  <nd ref="1754714574"/>
+  <nd ref="1982136536"/>
+  <nd ref="1982136537"/>
+  <nd ref="1754714576"/>
+  <nd ref="1982136543"/>
+  <nd ref="1982136540"/>
+  <nd ref="1754714587"/>
+  <nd ref="1982136539"/>
+  <nd ref="1982136538"/>
+  <nd ref="1754714585"/>
+  <nd ref="1754714549"/>
+  <nd ref="1904291712"/>
+  <nd ref="1754714591"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Estrada das Conrelas"/>
+  <tag k="oneway" v="no"/>
+  <tag k="ref" v="EM 1223"/>
+  <tag k="source" v="Bing"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+</osm>

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Nimbus24.Serviço>
+
+@{
+    ViewBag.Title = "Histórico";
+}
+<body style="background-color: beige; font-family: Verdana, Arial;">
+
+    <h2>Histórico:</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+
+    
+    <table class="table">
+        <tr>
+            <th>
+                <label> Cliente</label>
+            </th>
+            <th>
+                <label> Morada</label>
+            </th>
+            <th>
+                <label> Prestador</label>
+            </th>
+            <th>
+                <label> Preço </label>
+            </th>
+            <th>
+                <label> Data</label>
+            </th>
+            <th>
+                <label> Estado*</label>
+            </th>
+            <th>
+                <label> Descrição</label>
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.mail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Morada.rua)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prestador.nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.preço)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descrição)
+            </td>
+        </tr>
+        }
+
+    </table>
+    <p>
+        Estado de Serviço :<br />
+        0 - Em negociação. <br />
+        1 - Proposta Aceite <br />
+        2 - Realizado
+    </p>
+</body>

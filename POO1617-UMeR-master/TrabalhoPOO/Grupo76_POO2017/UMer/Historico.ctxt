@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Historico()
+comment1.params=viagens
+comment1.target=Historico(java.util.List)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=c
+comment2.target=Historico(Historico)
+comment3.params=
+comment3.target=java.util.List\ getViagens()
+comment4.params=viagens
+comment4.target=void\ setViagens(java.util.List)
+comment5.params=data1\ data2
+comment5.target=java.util.List\ getBetween(java.time.LocalDate,\ java.time.LocalDate)
+comment6.params=
+comment6.target=int\ quantViagens()
+comment7.params=v
+comment7.target=void\ addViagem(Viagem)
+comment8.params=
+comment8.target=Historico\ clone()
+comment9.params=o
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=11

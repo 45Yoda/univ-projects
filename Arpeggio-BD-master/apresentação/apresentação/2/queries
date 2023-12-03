@@ -1,0 +1,19 @@
+MATCH(uti:Utilizador)
+RETURN uti.Username, uti.Email;
+
+Seleciona da base de dados todos os utilizadores,
+retornando os seus usernames e  os respetivos emails.
+
+MATCH (uti{UtilizadorID:'1'})-[:SEGUE]->(art:Artista)
+RETURN uti.Username, art.Nome;
+
+Seleciona o utilizador onde o UtilizadorID é 1 e verifica
+qual o artista que segue retornando o nome do utilizador
+e o nome do artista
+
+MATCH (a:Album) -[:TEM]-> (f:Faixa)
+WHERE (a.Nome = "Reputation")
+RETURN a.Nome, count(f);
+
+Seleciona o album com o nome "Reputation" e
+retorna o seu nome e o número de faixas que possui

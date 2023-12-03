@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Localizacao()
+comment1.params=cx\ cy
+comment1.target=Localizacao(double,\ double)
+comment2.params=p
+comment2.target=Localizacao(Localizacao)
+comment3.params=
+comment3.target=double\ getX()
+comment4.params=
+comment4.target=double\ getY()
+comment5.params=l
+comment5.target=double\ calculaDist(Localizacao)
+comment6.params=o
+comment6.target=boolean\ equals(java.lang.Object)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=
+comment8.target=Localizacao\ clone()
+numComments=9

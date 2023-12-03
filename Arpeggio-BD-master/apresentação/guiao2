@@ -1,0 +1,35 @@
+--As bases de dados relacionais acentam nas propriedades ACID
+  -Atomicidade
+  -Consistencia
+  -Isolamento
+  -Durabilidade
+
+
+De forma a facilitar o crescimento da Base de Dados, em algumas circustancias
+estas propriedades são ignoradas
+
+-- Vantagens NoSql
+  -custos mais reduzidos
+  -dados sempre disponiveis
+  -base de dados orientada a objetos flexiveis
+  -facilidade de introducao de dados
+  -facilidade de gestao de grandes quantidade de informacao
+
+
+Novo Sistema de Base de Dados
+
+Implementação da BD em Neo4j
+  - As entidades passam a ser nodos
+  - Relacionamentos passam a ser arestas entre os nodos
+
+
+Migração de Dados
+
+--Exportação
+
+  -Exportação de dados presentes na base de dados em MySQL para ficheiros
+  com extensão .csv
+  - Cada tabela foi exportada para um ficheiro diferente
+  - Processo de migração foi necessário importar os ficheiros para uma diretoria especifica
+
+\r\n Carriage Return + Line Feed passa de linha e mete cursor no inicio

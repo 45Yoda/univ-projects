@@ -1,0 +1,47 @@
+﻿@model Nimbus24.Cliente
+
+@{
+
+    ViewData["Title"] = "Bem Vindo!";
+
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<body style="background-color: beige; font-family: Verdana, Arial;">
+    <link href="~/Content/Login.css" rel="stylesheet" type="text/css" />
+
+   
+    <div id="Login" class="tabcontent" align="center">
+       
+            @if (!Request.IsAuthenticated)
+            {
+                using(Html.BeginForm("Login", "Clientes", FormMethod.Post))
+                {
+                    @Html.ValidationSummary(true)
+
+
+                    <img src="~/Images/reeeeee.png" alt="Avatar" style="width:30%;"><br />
+                    <br />
+                    <label for="mail"><b>E-Mail</b></label>
+                    <input type="text" placeholder="Enter mail" name="mail" required align="middle"> <br />
+                    <br />
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required><br>
+                    <br />
+
+                    <input type="submit" value="Submit" />
+                }
+            }
+            else
+            {
+                <span>Hello</span> <strong>@Html.Encode(User.Identity.Name)</strong>
+                @Html.ActionLink("Sign Out", "Logout", "Clientes");
+            }
+    </div>
+   
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</body>

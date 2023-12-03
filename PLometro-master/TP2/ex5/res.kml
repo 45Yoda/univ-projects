@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	<Style id="route">
+		<LineStyle>
+			<color>64FFFFFF</color>
+			<width>2</width>
+		</LineStyle>
+ 	</Style>
+	<Placemark>
+		<name>Rota 1</name>
+		<styleUrl>#route</styleUrl>
+	<LineString>
+		<tessellate>1</tessellate>
+		<coordinates>
+		-8.427009"><ele>179.867</ele><time>2018-05-15T18:12:03Z</time></trkpt><trkp,41.561229,179.236
+		</coordinates>
+	</LineString>
+	</Placemark>
+</Document>
+</kml>

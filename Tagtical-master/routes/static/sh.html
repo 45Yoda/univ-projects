@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8>
+	<title>P5 app</title>
+	<script type='text/javascript' src="p5.min.js"></script>
+	<script type='text/javascript' src="p5.dom.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+
+<body>
+	<div id='myContainer' >
+	</div>
+	<div class="apple">
+		<p> Controllers: </p>
+					
+		<p>p - pause/continue</p>
+		<p>d - home team area</p>
+		<p>e - away team area</p>
+		<p>r - restart game</p>
+	</div>			
+		
+
+	<script>
+
+//	<script src="https://unpkg.com/axios/dist/axios.min.js">
+//<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js">
+	
+
+		let x = 320;
+		let y = 180;
+		let xspeed = 5;
+		let yspeed = 2;
+
+		let r = 25;
+
+
+
+		let bg;
+
+		let pos1A;
+		let pos2A;
+		let pos3A;
+		let pos4A;
+		let pos5A;
+		let pos1B;
+		let pos2B;
+		let pos3B;
+		let pos4B;
+		let pos5B;
+		let i = 0;
+		let t;
+		let t1;
+
+		let jsonfile;
+
+
+		let flag = 0;
+		let flag2 = 0;
+		let flag3 = 0;
+
+		let angle=0;
+		let angle2=0;
+		let angle3=0;
+		let angle4=0;
+
+		let pos_length;		
+
+		let counter = 0;
+		let startTime= 0;
+		let maxTime = 6000;
+
+		
+
+		function preload() {
+
+			var pathname = window.location.pathname;
+			console.log(pathname);
+			var n = pathname.match('\/[^f].*\/')
+			var e = n[0].replace('\/','');
+			var c = e.replace('\/','');
+			console.log(c);
+			
+
+			loadJSON("http://localhost:5000/api/games/"+c,gotData);
+			//jsonfile = loadJSON("out.json");
+			bg = loadImage("field2.png");
+
+
+		}
+
+		function gotData(data){
+			console.log(data);
+			jsonfile = data;
+		}
+
+
+		function setup() {
+	
+			console.log(jsonfile)
+			t = 1;
+			t1 = 0;
+
+			
+			
+			console.log(jsonfile.teamA.name);
+			let canvas = createCanvas(640, 360);
+			
+			canvas.class("lemon");
+
+			pos1A = jsonfile.teamA.players[0].pos;
+
+			pos_length = pos1A.length;
+
+			pos2A = jsonfile.teamA.players[1].pos;
+			
+			pos3A = jsonfile.teamA.players[2].pos;
+			pos4A = jsonfile.teamA.players[3].pos;
+			pos5A = jsonfile.teamA.players[4].pos;
+		
+			pos1B = jsonfile.teamB.players[0].pos;
+			pos2B = jsonfile.teamB.players[1].pos;
+			pos3B = jsonfile.teamB.players[2].pos;
+			pos4B = jsonfile.teamB.players[3].pos;
+			pos5B = jsonfile.teamB.players[4].pos;
+		
+
+
+			pos1A.x = ((pos1A[i].posX*640)/44);
+			pos1A.y = (360-(pos1A[i].posY*360)/22);
+			
+			
+			pos2A.x = ((pos2A[i].posX*640)/44);
+			pos2A.y = (360-(pos2A[i].posY*360)/22);
+			
+			pos3A.x = ((pos3A[i].posX*640)/44);
+			pos3A.y = (360-(pos3A[i].posY*360)/22);
+			pos4A.x = ((pos4A[i].posX*640)/44);
+			pos4A.y = (360-(pos4A[i].posY*360)/22);
+			pos5A.x = ((pos5A[i].posX*640)/44);
+			pos5A.y = (360-(pos5A[i].posY*360)/22);
+			
+
+			pos1B.x = ((pos1B[i].posX*640)/44);
+			pos1B.y = (360-(pos1B[i].posY*360)/22);
+			pos2B.x = ((pos2B[i].posX*640)/44);
+			pos2B.y = (360-(pos2B[i].posY*360)/22);
+			pos3B.x = ((pos3B[i].posX*640)/44);
+			pos3B.y = (360-(pos3B[i].posY*360)/22);
+			pos4B.x = ((pos4B[i].posX*640)/44);
+			pos4B.y = (360-(pos4B[i].posY*360)/22);
+			pos5B.x = ((pos5B[i].posX*640)/44);
+			pos5B.y = (360-(pos5B[i].posY*360)/22);
+			
+			
+		}
+
+	
+		function draw() {
+			background(bg);
+
+
+		/*
+			fill(244,3,3);
+			noStroke();
+			rect(20,330,map(counter-startTime,0,maxTime,0,600),19);
+			noFill();
+			stroke(0);
+			rect(20,330,600,20);
+			*/
+
+			//startTime = -t;
+
+			fill(color(0, 128, 0));
+			strokeWeight(1);
+			stroke(0,0,0);
+			//ellipse(50, 180, 20, 20);
+
+
+			if(int(t-t1)==1){
+				t1+=1;
+				
+				if (i < pos_length-2) {
+					i++;
+				}
+				else{
+					removeElements()
+					noLoop()
+					let text5 = createSpan("END OF GAME!!!");
+					text5.class("orange");
+				}
+				pos1A.x = ((pos1A[i].posX*640)/44);
+				pos1A.y = (360-(pos1A[i].posY*360)/22);
+			
+				
+				
+				pos2A.x = ((pos2A[i].posX*640)/44);
+				pos2A.y = (360-(pos2A[i].posY*360)/22);
+				pos3A.x = ((pos3A[i].posX*640)/44);
+				pos3A.y = (360-(pos3A[i].posY*360)/22);
+				pos4A.x = ((pos4A[i].posX*640)/44);
+				pos4A.y = (360-(pos4A[i].posY*360)/22);
+				pos5A.x = ((pos5A[i].posX*640)/44);
+				pos5A.y = (360-(pos5A[i].posY*360)/22);
+				
+				pos1B.x = ((pos1B[i].posX*640)/44);
+				pos1B.y = (360-(pos1B[i].posY*360)/22);
+				pos2B.x = ((pos2B[i].posX*640)/44);
+				pos2B.y = (360-(pos2B[i].posY*360)/22);
+				pos3B.x = ((pos3B[i].posX*640)/44);
+				pos3B.y = (360-(pos3B[i].posY*360)/22);
+				pos4B.x = ((pos4B[i].posX*640)/44);
+				pos4B.y = (360-(pos4B[i].posY*360)/22);
+				pos5B.x = ((pos5B[i].posX*640)/44);
+				pos5B.y = (360-(pos5B[i].posY*360)/22);
+				
+				
+			
+		
+				
+			
+			}
+			
+
+			t+=0.039
+
+
+			ellipse(pos1A.x, pos1A.y, 20, 20);
+
+		
+			ellipse(pos2A.x, pos2A.y, 20, 20);
+			
+			ellipse(pos3A.x, pos3A.y, 20, 20);
+			ellipse(pos4A.x, pos4A.y, 20, 20);
+			ellipse(pos5A.x, pos5A.y, 20, 20);
+
+
+			fill(color(200, 200, 0));
+			strokeWeight(1);
+			stroke(0,0,0);
+			
+			ellipse(pos1B.x, pos1B.y, 20, 20);
+			ellipse(pos2B.x, pos2B.y, 20, 20);
+			ellipse(pos3B.x, pos3B.y, 20, 20);
+			ellipse(pos4B.x, pos4B.y, 20, 20);
+			ellipse(pos5B.x, pos5B.y, 20, 20);
+
+			
+
+			pos1A.x += (((pos1A[i+1].posX * 640)/44)-pos1A.x)*0.17;
+			pos1A.y += ((360-(pos1A[i+1].posY * 360)/22)-pos1A.y)*0.17;
+			
+			
+			pos2A.x += (((pos2A[i+1].posX * 640)/44)-pos2A.x)*0.17;
+			pos2A.y += ((360-(pos2A[i+1].posY * 360)/22)-pos2A.y)*0.17;
+			
+			
+			pos3A.x += (((pos3A[i+1].posX * 640)/44)-pos3A.x)*0.17;
+			pos3A.y += ((360-(pos3A[i+1].posY * 360)/22)-pos3A.y)*0.17;
+			pos4A.x += (((pos4A[i+1].posX * 640)/44)-pos4A.x)*0.17;
+			pos4A.y += ((360-(pos4A[i+1].posY * 360)/22)-pos4A.y)*0.17;
+			pos5A.x += (((pos5A[i+1].posX * 640)/44)-pos5A.x)*0.17;
+			pos5A.y += ((360-(pos5A[i+1].posY * 360)/22)-pos5A.y)*0.17;
+
+			
+			pos1B.x += (((pos1B[i+1].posX * 640)/44)-pos1B.x)*0.17;
+			pos1B.y += ((360-(pos1B[i+1].posY * 360)/22)-pos1B.y)*0.17;
+			pos2B.x += (((pos2B[i+1].posX * 640)/44)-pos2B.x)*0.17;
+			pos2B.y += ((360-(pos2B[i+1].posY * 360)/22)-pos2B.y)*0.17;
+			pos3B.x += (((pos3B[i+1].posX * 640)/44)-pos3B.x)*0.17;
+			pos3B.y += ((360-(pos3B[i+1].posY * 360)/22)-pos3B.y)*0.17;
+			pos4B.x += (((pos4B[i+1].posX * 640)/44)-pos4B.x)*0.17;
+			pos4B.y += ((360-(pos4B[i+1].posY * 360)/22)-pos4B.y)*0.17;
+			pos5B.x += (((pos5B[i+1].posX * 640)/44)-pos5B.x)*0.17;
+			pos5B.y += ((360-(pos5B[i+1].posY * 360)/22)-pos5B.y)*0.17;
+			
+			
+			if(flag){
+
+				var x = (pos2A.x + pos3A.x + pos4A.x + pos5A.x)/4;
+				var y = (pos2A.y + pos3A.y + pos4A.y + pos5A.y)/4;
+				
+				var center = {
+					"x": x,
+					"y": y,
+				};
+				
+				angle = atan2(pos2A.x - center.x, pos2A.y - center.y);
+				angle2 = atan2(pos3A.x - center.x, pos3A.y - center.y);
+				angle3 = atan2(pos4A.x - center.x, pos4A.y - center.y);
+				angle4 = atan2(pos5A.x - center.x, pos5A.y - center.y);
+
+				var vert = [
+					{ "posX": pos2A.x, "posY": pos2A.y, "angle": angle},
+					{ "posX": pos3A.x, "posY": pos3A.y, "angle": angle2},
+					{ "posX": pos4A.x, "posY": pos4A.y, "angle": angle3},
+					{ "posX": pos5A.x, "posY": pos5A.y, "angle": angle4},
+				]
+				
+
+				vert = sortByKey(vert, 'angle');
+		
+
+				fill(255,0,0,128);
+				beginShape();
+					vertex(vert[0].posX,vert[0].posY);
+					vertex(vert[1].posX,vert[1].posY);
+					vertex(vert[2].posX,vert[2].posY);
+					vertex(vert[3].posX,vert[3].posY);
+				endShape(CLOSE);
+			}	
+
+			if(flag2){
+			
+
+				var x = (pos2B.x + pos3B.x + pos4B.x + pos5B.x)/4;
+				var y = (pos2B.y + pos3B.y + pos4B.y + pos5B.y)/4;
+				
+				var center = {
+					"x": x,
+					"y": y,
+				};
+				
+				angle = atan2(pos2B.x - center.x, pos2B.y - center.y);
+				angle2 = atan2(pos3B.x - center.x, pos3B.y - center.y);
+				angle3 = atan2(pos4B.x - center.x, pos4B.y - center.y);
+				angle4 = atan2(pos5B.x - center.x, pos5B.y - center.y);
+
+				var vert = [
+					{ "posX": pos2B.x, "posY": pos2B.y, "angle": angle},
+					{ "posX": pos3B.x, "posY": pos3B.y, "angle": angle2},
+					{ "posX": pos4B.x, "posY": pos4B.y, "angle": angle3},
+					{ "posX": pos5B.x, "posY": pos5B.y, "angle": angle4},
+				]
+				
+
+				vert = sortByKey(vert, 'angle');
+
+				fill(0,0,255,128);
+				beginShape();
+					vertex(vert[0].posX,vert[0].posY);
+					vertex(vert[1].posX,vert[1].posY);
+					vertex(vert[2].posX,vert[2].posY);
+					vertex(vert[3].posX,vert[3].posY);
+				endShape(CLOSE);
+
+			}				
+
+		}
+
+		function sortByKey(array, key) {
+			return array.sort(function(a, b) {
+    			var x = a[key]; var y = b[key];
+   				 return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+			});
+		}
+
+
+		function keyPressed(){
+			if(key == 's')
+			redraw();
+			if(key == 'd'){
+				flag = !flag;
+				redraw()
+			}
+			if(key == 'e'){
+				flag2 = !flag2;
+				redraw()
+			}
+			if(key=='r'){
+				t=1;
+				t1=0;
+				i=0;
+			}
+			if(key == 'p'){
+				if(flag3){
+					flag3 = 0;
+					loop();
+				}
+				else{
+					flag3 = 1;
+					noLoop();
+			}
+		}
+
+			
+		}
+
+		function mousePressed(){
+
+			//A TEAM
+			
+			if(dist(mouseX,mouseY,pos1A.x,pos1A.y) < 20){
+				removeElements();
+				name1A = jsonfile.teamA.players[0].name;
+				console.log(name1A);
+				let txt = createDiv("My name is " + name1A)
+				txt.class('lime')
+				//txt.position(400,50);
+				txt.parent('myContainer');
+				dist1A = jsonfile.teamA.players[0].data.dist;
+				vel_media1A = jsonfile.teamA.players[0].data.vel_media;
+				vel_max1A = jsonfile.teamA.players[0].data.vel_max;
+				let txt2 = createDiv("Distance: " + dist1A);
+				txt2.class('lime')
+				//txt2.position(400,80);
+				txt2.parent('myContainer');
+				let txt3 = createDiv("Average Velocity: " + vel_media1A);
+				txt3.class('lime')
+				//txt3.position(400,100);
+				txt3.parent('myContainer');
+				let txt4 = createDiv("Maximum Velocity: " + vel_max1A);
+				txt4.class('lime')
+				//txt4.position(400,120);
+				txt4.parent('myContainer');	
+			}
+			else{			
+				if(dist(mouseX,mouseY,pos2A.x,pos2A.y) < 20){
+					removeElements();
+					name2A = jsonfile.teamA.players[1].name;
+					console.log(name2A);
+					let txt = createDiv("My name is " + name2A)
+					txt.class('lime')
+					txt.parent('myContainer');
+					dist2A = jsonfile.teamA.players[1].data.dist;
+					vel_media2A = jsonfile.teamA.players[1].data.vel_media;
+					vel_max2A = jsonfile.teamA.players[1].data.vel_max;
+					let txt2 = createDiv("Distance: " + dist2A);
+					txt2.class('lime')
+					txt2.parent('myContainer');
+					let txt3 = createDiv("Average Velocity: " + vel_media2A);
+					txt3.class('lime')
+					txt3.parent('myContainer');
+					let txt4 = createDiv("Maximum Velocity: " + vel_max2A);
+					txt4.class('lime')
+					txt4.parent('myContainer');	
+				}
+				else{
+					if(dist(mouseX,mouseY,pos3A.x,pos3A.y) < 20){
+						removeElements();
+						name3A = jsonfile.teamA.players[2].name;
+						console.log(name3A);
+						let txt = createDiv("My name is " + name3A)
+						txt.class('lime')
+						txt.parent('myContainer');
+						dist3A = jsonfile.teamA.players[2].data.dist;
+						vel_media3A = jsonfile.teamA.players[2].data.vel_media;
+						vel_max3A = jsonfile.teamA.players[2].data.vel_max;
+						let txt2 = createDiv("Distance: " + dist3A);
+						txt2.class('lime')
+						txt2.parent('myContainer');
+						let txt3 = createDiv("Average Velocity: " + vel_media3A);
+						txt3.class('lime')
+						txt3.parent('myContainer');
+						let txt4 = createDiv("Maximum Velocity: " + vel_max3A);
+						txt4.class('lime')
+						txt4.parent('myContainer');
+					}
+					else{
+						if(dist(mouseX,mouseY,pos4A.x,pos4A.y) < 20){
+							removeElements();
+							name4A = jsonfile.teamA.players[3].name;
+							console.log(name4A);
+							let txt = createDiv("My name is " + name4A)
+							txt.class('lime')
+							txt.parent('myContainer');
+							dist4A = jsonfile.teamA.players[3].data.dist;
+							vel_media4A = jsonfile.teamA.players[3].data.vel_media;
+							vel_max4A = jsonfile.teamA.players[3].data.vel_max;
+							let txt2 = createDiv("Distance: " + dist4A);
+							txt2.class('lime');
+							txt2.parent('myContainer');
+							let txt3 = createDiv("Average Velocity: " + vel_media4A);
+							txt3.class('lime')
+							txt3.parent('myContainer');
+							let txt4 = createDiv("Maximum Velocity: " + vel_max4A);
+							txt4.class('lime')
+							txt4.parent('myContainer');
+						}
+						else{
+							if(dist(mouseX,mouseY,pos5A.x,pos5A.y) < 20){
+								removeElements();
+								name5A = jsonfile.teamA.players[4].name;
+								console.log(name5A);
+								let txt = createDiv("My name is " + name5A)
+								txt.class('lime')
+								//txt.position(400,50);
+								txt.parent('myContainer');
+								dist5A = jsonfile.teamA.players[4].data.dist;
+								vel_media5A = jsonfile.teamA.players[4].data.vel_media;
+								vel_max5A = jsonfile.teamA.players[4].data.vel_max;
+								let txt2 = createDiv("Distance: " + dist5A);
+								txt2.class('lime')
+								txt2.parent('myContainer');
+								let txt3 = createDiv("Average Velocity: " + vel_media5A);
+								txt3.class('lime')
+								txt3.parent('myContainer');
+								let txt4 = createDiv("Maximum Velocity: " + vel_max5A);
+								txt4.class('lime')
+								txt4.parent('myContainer');	
+							}
+							else{	
+								//B TEAM
+								if(dist(mouseX,mouseY,pos1B.x,pos1B.y) < 30){
+									removeElements();
+									name1B = jsonfile.teamB.players[0].name;
+									console.log(name1B);
+									let txt = createDiv("My name is " + name1B)
+									txt.class('lime')
+									txt.parent('myContainer');
+									dist1B = jsonfile.teamB.players[0].data.dist;
+									vel_media1B = jsonfile.teamB.players[0].data.vel_media;
+									vel_max1B = jsonfile.teamB.players[0].data.vel_max;
+									let txt2 = createDiv("Distance: " + dist1B);
+									txt2.class('lime')
+									txt2.parent('myContainer');
+									let txt3 = createDiv("Average Velocity: " + vel_media1B);
+									txt3.class('lime')
+									txt3.parent('myContainer');
+									let txt4 = createDiv("Maximum Velocity: " + vel_max1B);
+									txt4.class('lime')
+									txt4.parent('myContainer');
+				
+								}
+								else{
+									if(dist(mouseX,mouseY,pos2B.x,pos2B.y) < 30){
+										removeElements();
+										name2B = jsonfile.teamB.players[1].name;
+										console.log(name2B);
+										let txt = createDiv("My name is " + name2B)
+										txt.class('lime')
+										txt.parent('myContainer');
+										dist2B = jsonfile.teamB.players[1].data.dist;
+										vel_media2B = jsonfile.teamB.players[1].data.vel_media;
+										vel_max2B = jsonfile.teamB.players[1].data.vel_max;
+										let txt2 = createDiv("Distance: " + dist2B);
+										txt2.class('lime')
+										txt2.parent('myContainer');
+										let txt3 = createDiv("Average Velocity: " + vel_media2B);
+										txt3.class('lime')
+										txt3.parent('myContainer');
+										let txt4 = createDiv("Maximum Velocity: " + vel_max2B);
+										txt4.class('lime')
+										txt4.parent('myContainer');
+
+									}
+									else{							
+										if(dist(mouseX,mouseY,pos3B.x,pos3B.y) < 30){
+											removeElements();
+											name3B = jsonfile.teamB.players[2].name;
+											console.log(name3B);
+											let txt = createDiv("My name is " + name3B)
+											txt.class('lime')
+											txt.parent('myContainer');
+											dist3B = jsonfile.teamB.players[2].data.dist;
+											vel_media3B = jsonfile.teamB.players[2].data.vel_media;
+											vel_max3B = jsonfile.teamB.players[2].data.vel_max;
+											let txt2 = createDiv("Distance: " + dist3B);
+											txt2.class('lime')
+											txt2.parent('myContainer');
+											let txt3 = createDiv("Average Velocity: " + vel_media3B);
+											txt3.class('lime')
+											txt3.parent('myContainer');
+											let txt4 = createDiv("Maximum Velocity: " + vel_max3B);
+											txt4.class('lime')
+											txt4.parent('myContainer');
+
+										}
+										else{
+											if(dist(mouseX,mouseY,pos4B.x,pos4B.y) < 30){
+												removeElements();
+												name4B = jsonfile.teamB.players[3].name;
+												console.log(name4B);
+												let txt = createDiv("My name is " + name4B)
+												txt.class('lime')
+												txt.parent('myContainer');
+												dist4B = jsonfile.teamB.players[3].data.dist;
+												vel_media4B = jsonfile.teamB.players[3].data.vel_media;
+												vel_max4B = jsonfile.teamB.players[3].data.vel_max;
+												let txt2 = createDiv("Distance: " + dist4B);
+												txt2.class('lime');
+												txt2.parent('myContainer');
+												let txt3 = createDiv("Average Velocity: " + vel_media4B);
+												txt3.class('lime')
+												txt3.parent('myContainer');
+												let txt4 = createDiv("Maximum Velocity: " + vel_max4B);
+												txt4.class('lime')
+												txt4.parent('myContainer');
+											}
+											else{
+												if(dist(mouseX,mouseY,pos5B.x,pos5B.y) < 30){
+													removeElements();
+													name5B = jsonfile.teamB.players[4].name;
+													console.log(name5B);
+													let txt = createDiv("My name is " + name5B)
+													txt.class('lime')
+													//txt.position(400,50);
+													txt.parent('myContainer');
+													dist5B = jsonfile.teamB.players[4].data.dist;
+													vel_media5B = jsonfile.teamB.players[4].data.vel_media;
+													vel_max5B = jsonfile.teamB.players[4].data.vel_max;
+													let txt2 = createDiv("Distance: " + dist5B);
+													txt2.class('lime')
+													txt2.parent('myContainer');
+													let txt3 = createDiv("Average Velocity: " + vel_media5B);
+													txt3.class('lime')
+													txt3.parent('myContainer');
+													let txt4 = createDiv("Maximum Velocity: " + vel_max5B);
+													txt4.class('lime')
+													txt4.parent('myContainer');	
+												}
+												else{
+													removeElements();
+													let txt = createDiv('Click any Player to know their stats!')
+													txt.class('lime');
+												}
+											}
+										}
+									}
+								}
+							}				
+						}
+					}
+				}
+			}
+		}
+		
+	</script>
+
+</body>
+
+
+
+</html>
+<style>
+	body{
+		background: #c8ebdf;
+	}
+
+	.lime{
+		padding-top: 10px;
+		text-align: center;
+	}
+
+	.orange{
+		animation:1s blinker linear infinite;
+    	-webkit-animation:1s blinker linear infinite;
+    	-moz-animation:1s blinker linear infinite;
+
+     	color: orangered;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+    @-moz-keyframes blinker {  
+    	0% { opacity: 1.0; }
+     	50% { opacity: 0.0; }
+    	100% { opacity: 1.0; }
+    }
+
+    @-webkit-keyframes blinker {  
+    	0% { opacity: 1.0; }
+     	50% { opacity: 0.0; }
+     	100% { opacity: 1.0; }
+    }
+
+    @keyframes blinker {  
+    	0% { opacity: 1.0; }
+    	50% { opacity: 0.0; }
+    	100% { opacity: 1.0; }
+    }
+	
+
+	canvas{
+		padding:0;
+		margin: auto;
+		display: block;
+		width: 640px;
+		height: 360px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.apple{
+		position: absolute;
+		top: 150px;	
+		text-align: left;
+		padding: 0;
+		margin: auto;
+	}
+</style>

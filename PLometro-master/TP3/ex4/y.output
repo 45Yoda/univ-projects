@@ -1,0 +1,247 @@
+Terminals which are not used
+
+   REL
+
+
+State 16 conflicts: 1 reduce/reduce
+
+
+Grammar
+
+    0 $accept: Gramatica $end
+
+    1 Gramatica: Diretivas Conceitos
+
+    2 Diretivas: Diretiva Diretivas
+    3          | Diretiva
+
+    4 Diretiva: LANGS
+    5         | BASELANG
+    6         | INV
+    7         | DESC
+    8         | END
+
+    9 Conceitos: Conceito Conceitos
+   10          | Conceito
+
+   11 Conceito: TERMO Elementos END
+
+   12 Elementos: Elemento Elementos
+   13          | Elemento
+   14          | /* empty */
+
+   15 Elemento: ELEM
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+LANGS (258) 4
+BASELANG (259) 5
+REL (260)
+TERMO (261) 11
+ELEM (262) 15
+END (263) 8 11
+INV (264) 6
+DESC (265) 7
+
+
+Nonterminals, with rules where they appear
+
+$accept (11)
+    on left: 0
+Gramatica (12)
+    on left: 1, on right: 0
+Diretivas (13)
+    on left: 2 3, on right: 1 2
+Diretiva (14)
+    on left: 4 5 6 7 8, on right: 2 3
+Conceitos (15)
+    on left: 9 10, on right: 1 9
+Conceito (16)
+    on left: 11, on right: 9 10
+Elementos (17)
+    on left: 12 13 14, on right: 11 12
+Elemento (18)
+    on left: 15, on right: 12 13
+
+
+state 0
+
+    0 $accept: . Gramatica $end
+
+    LANGS     shift, and go to state 1
+    BASELANG  shift, and go to state 2
+    END       shift, and go to state 3
+    INV       shift, and go to state 4
+    DESC      shift, and go to state 5
+
+    Gramatica  go to state 6
+    Diretivas  go to state 7
+    Diretiva   go to state 8
+
+
+state 1
+
+    4 Diretiva: LANGS .
+
+    $default  reduce using rule 4 (Diretiva)
+
+
+state 2
+
+    5 Diretiva: BASELANG .
+
+    $default  reduce using rule 5 (Diretiva)
+
+
+state 3
+
+    8 Diretiva: END .
+
+    $default  reduce using rule 8 (Diretiva)
+
+
+state 4
+
+    6 Diretiva: INV .
+
+    $default  reduce using rule 6 (Diretiva)
+
+
+state 5
+
+    7 Diretiva: DESC .
+
+    $default  reduce using rule 7 (Diretiva)
+
+
+state 6
+
+    0 $accept: Gramatica . $end
+
+    $end  shift, and go to state 9
+
+
+state 7
+
+    1 Gramatica: Diretivas . Conceitos
+
+    TERMO  shift, and go to state 10
+
+    Conceitos  go to state 11
+    Conceito   go to state 12
+
+
+state 8
+
+    2 Diretivas: Diretiva . Diretivas
+    3          | Diretiva .
+
+    LANGS     shift, and go to state 1
+    BASELANG  shift, and go to state 2
+    END       shift, and go to state 3
+    INV       shift, and go to state 4
+    DESC      shift, and go to state 5
+
+    $default  reduce using rule 3 (Diretivas)
+
+    Diretivas  go to state 13
+    Diretiva   go to state 8
+
+
+state 9
+
+    0 $accept: Gramatica $end .
+
+    $default  accept
+
+
+state 10
+
+   11 Conceito: TERMO . Elementos END
+
+    ELEM  shift, and go to state 14
+
+    $default  reduce using rule 14 (Elementos)
+
+    Elementos  go to state 15
+    Elemento   go to state 16
+
+
+state 11
+
+    1 Gramatica: Diretivas Conceitos .
+
+    $default  reduce using rule 1 (Gramatica)
+
+
+state 12
+
+    9 Conceitos: Conceito . Conceitos
+   10          | Conceito .
+
+    TERMO  shift, and go to state 10
+
+    $default  reduce using rule 10 (Conceitos)
+
+    Conceitos  go to state 17
+    Conceito   go to state 12
+
+
+state 13
+
+    2 Diretivas: Diretiva Diretivas .
+
+    $default  reduce using rule 2 (Diretivas)
+
+
+state 14
+
+   15 Elemento: ELEM .
+
+    $default  reduce using rule 15 (Elemento)
+
+
+state 15
+
+   11 Conceito: TERMO Elementos . END
+
+    END  shift, and go to state 18
+
+
+state 16
+
+   12 Elementos: Elemento . Elementos
+   13          | Elemento .
+
+    ELEM  shift, and go to state 14
+
+    END       reduce using rule 13 (Elementos)
+    END       [reduce using rule 14 (Elementos)]
+    $default  reduce using rule 13 (Elementos)
+
+    Elementos  go to state 19
+    Elemento   go to state 16
+
+
+state 17
+
+    9 Conceitos: Conceito Conceitos .
+
+    $default  reduce using rule 9 (Conceitos)
+
+
+state 18
+
+   11 Conceito: TERMO Elementos END .
+
+    $default  reduce using rule 11 (Conceito)
+
+
+state 19
+
+   12 Elementos: Elemento Elementos .
+
+    $default  reduce using rule 12 (Elementos)

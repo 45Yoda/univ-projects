@@ -1,0 +1,11 @@
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\bin\Debug\netcoreapp2.0\nimbus24.deps.json
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\bin\Debug\netcoreapp2.0\nimbus24.runtimeconfig.json
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\bin\Debug\netcoreapp2.0\nimbus24.runtimeconfig.dev.json
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\bin\Debug\netcoreapp2.0\nimbus24.dll
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\bin\Debug\netcoreapp2.0\nimbus24.pdb
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\obj\Debug\netcoreapp2.0\nimbus24.csprojAssemblyReference.cache
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\obj\Debug\netcoreapp2.0\nimbus24.csproj.CoreCompileInputs.cache
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\obj\Debug\netcoreapp2.0\nimbus24.AssemblyInfoInputs.cache
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\obj\Debug\netcoreapp2.0\nimbus24.AssemblyInfo.cs
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\obj\Debug\netcoreapp2.0\nimbus24.dll
+C:\Users\Bandolero\Desktop\nimbus24\nimbus24\nimbus24\obj\Debug\netcoreapp2.0\nimbus24.pdb

@@ -1,0 +1,6 @@
+<scene>
+    <group>
+        <scale X="0.5" Y="0.8865" Z="0.8865" />
+        <model file="box.3d" texture="earth.jpg" emiX="1" emiY="1" emiZ="1" shiny = "100"/>
+    </group>
+</scene>

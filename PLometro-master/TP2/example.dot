@@ -1,0 +1,6 @@
+strict digraph g {
+x -> y [label="ola"];
+a [label="ola"] -> b ;
+a -> x ;
+x -> c ;
+}

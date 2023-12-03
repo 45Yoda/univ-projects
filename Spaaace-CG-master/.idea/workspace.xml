@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efda1f47-1a28-4117-80c2-ad4208911b71" name="Default" comment="Error on textures path">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/action.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/action.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/engine.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/group.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/group.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/light.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/light.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/material.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/material.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/parser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/shape.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/shape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/box.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/box.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/cone.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/cone.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/generator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/generator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/plane.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/plane.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/point.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/point.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/sphere.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/sphere.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/torus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator/torus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/earth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/jupiter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/mars.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/mercury.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/moon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/neptune.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/pluto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/sand.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/saturn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/saturnring.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/sphere.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/stars.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/sun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/uranus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/uranusring.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/venus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/Engine/action.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/Engine/engine.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/Engine/group.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/Engine/light.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/Engine/material.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/Engine/parser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/Engine/shape.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/Generator/point.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/engine.dir/tinyxml2.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generator.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generator.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generator.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generator.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generator.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generator.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generator.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/engine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/generator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/generator.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devil/DevIL.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devil/IL/il.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devil/devil.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/box.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/cola.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/cone.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/cone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/cube.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/dunno.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/example.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/exem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/plane.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/plane.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/teacup.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/teacup.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/teaparty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/teapot.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/teapot.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/teaspoon.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/teaspoon.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/torus.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/torus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldFiles/yolo.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plane.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plane.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pot2.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarsystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarsystlight.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solsyst.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sphere.3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinyxml2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinyxml2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/torus.3d" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>saturn</find>
+      <find>renderSc</find>
+      <find>changeS</find>
+      <find>Eart</find>
+      <find>render</find>
+      <find>rende</find>
+      <find>getGlobalCatm</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Engine/parser.cpp" />
+        <option value="$PROJECT_DIR$/sphere.xml" />
+        <option value="$PROJECT_DIR$/sis.xml" />
+        <option value="$PROJECT_DIR$/Engine/shape.cpp" />
+        <option value="$PROJECT_DIR$/Engine/shape.h" />
+        <option value="$PROJECT_DIR$/Engine/light.cpp" />
+        <option value="$PROJECT_DIR$/Engine/material.cpp" />
+        <option value="$PROJECT_DIR$/Engine/camera.h" />
+        <option value="$PROJECT_DIR$/Engine/camera.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/solarsystlight.xml" />
+        <option value="$PROJECT_DIR$/pot2.3d" />
+        <option value="$PROJECT_DIR$/Engine/action.cpp" />
+        <option value="$PROJECT_DIR$/Engine/engine.cpp" />
+        <option value="$PROJECT_DIR$/Generator/plane.cpp" />
+        <option value="$PROJECT_DIR$/Generator/generator.cpp" />
+        <option value="$PROJECT_DIR$/plane.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="width" value="695" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spaaace-CG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spaaace-CG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spaaace-CG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spaaace-CG" type="462c0819:PsiDirectoryNode" />
+              <item name="CG_Fase4" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Textures" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.engine">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="engine" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../solarsystlight.xml" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="engine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="engine" />
+    <configuration name="generator" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="plane 10 plane.3d" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="generator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="generator" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.engine" />
+      <item itemvalue="Application.generator" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efda1f47-1a28-4117-80c2-ad4208911b71" name="Default" comment="" />
+      <created>1526902068636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526902068636</updated>
+      <workItem from="1526902071412" duration="7147000" />
+      <workItem from="1527098690406" duration="4621000" />
+      <workItem from="1527167265078" duration="1927000" />
+      <workItem from="1527172493282" duration="978000" />
+      <workItem from="1527173559841" duration="42000" />
+      <workItem from="1527252145166" duration="1899000" />
+      <workItem from="1527283769902" duration="987000" />
+      <workItem from="1527285044307" duration="44000" />
+      <workItem from="1527460054445" duration="41000" />
+      <workItem from="1527540864898" duration="8000" />
+      <workItem from="1527958113711" duration="2000" />
+      <workItem from="1529174867882" duration="15000" />
+      <workItem from="1529940694369" duration="6000" />
+    </task>
+    <task id="LOCAL-00001" summary="Error on textures path">
+      <created>1526902598831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526902598831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Error on textures path">
+      <created>1526915475103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526915475103</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Works works works">
+      <created>1526929623611</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526929623611</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New sphere for your ass">
+      <created>1526930223122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526930223122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17717000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11713031" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="CMake" order="7" visible="true" weight="0.32744783" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3258427" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39921466" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3258427" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Error on textures path" />
+    <MESSAGE value="Works works works" />
+    <MESSAGE value="New sphere for your ass" />
+    <option name="LAST_COMMIT_MESSAGE" value="New sphere for your ass" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+    <entry file="file://$PROJECT_DIR$/Generator/generator.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+    <entry file="file://$PROJECT_DIR$/Generator/generator.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/engine.cpp" />
+    <entry file="file://$PROJECT_DIR$/Generator/plane.cpp" />
+    <entry file="file://$PROJECT_DIR$/solarsystlight.xml" />
+    <entry file="file://$PROJECT_DIR$/plane.xml" />
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/engine.cpp" />
+    <entry file="file://$PROJECT_DIR$/Generator/plane.cpp" />
+    <entry file="file://$PROJECT_DIR$/plane.xml" />
+    <entry file="file://$PROJECT_DIR$/solarsystlight.xml" />
+    <entry file="file://$PROJECT_DIR$/Generator/generator.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/engine.cpp" />
+    <entry file="file://$PROJECT_DIR$/Generator/plane.cpp" />
+    <entry file="file://$PROJECT_DIR$/plane.xml" />
+    <entry file="file://$PROJECT_DIR$/solarsystlight.xml" />
+    <entry file="file://$PROJECT_DIR$/Generator/generator.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/engine.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/shape.cpp" />
+    <entry file="file://$PROJECT_DIR$/sis.xml" />
+    <entry file="file://$PROJECT_DIR$/sphere.xml" />
+    <entry file="file://$PROJECT_DIR$/solarsystlight.xml" />
+    <entry file="file://$PROJECT_DIR$/Engine/parser.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/engine.cpp" />
+    <entry file="file://$PROJECT_DIR$/sphere.xml" />
+    <entry file="file://$PROJECT_DIR$/Engine/shape.h" />
+    <entry file="file://$PROJECT_DIR$/Engine/shape.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/parser.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/light.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/camera.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/camera.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/pot2.3d" />
+    <entry file="file://$PROJECT_DIR$/Engine/action.cpp" />
+    <entry file="file://$PROJECT_DIR$/sis.xml" />
+    <entry file="file://$PROJECT_DIR$/plane.xml" />
+    <entry file="file://$PROJECT_DIR$/Generator/box.cpp" />
+    <entry file="file://$PROJECT_DIR$/solarsystlight.xml" />
+    <entry file="file://$PROJECT_DIR$/Generator/plane.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/engine.cpp" />
+    <entry file="file://$PROJECT_DIR$/Generator/generator.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/material.cpp" />
+  </component>
+</project>

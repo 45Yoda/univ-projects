@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.7.5 (12607 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="41.3084900" minlon="-7.7387300" maxlat="41.3093100" maxlon="-7.7356900"/>
+ <node id="896588606" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:14Z" user="rtafav2" uid="602999" lat="41.3094669" lon="-7.7353450"/>
+«<node id="896603208" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:31Z" user="rtafav2" uid="602999" lat="41.3086153" lon="-7.7392284"/>
+ <node id="896603215" visible="true" version="4" changeset="11241662" timestamp="2012-04-09T17:31:32Z" user="rtafav2" uid="602999" lat="41.3090803" lon="-7.7388355"/>
+ <node id="896603223" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:34Z" user="rtafav2" uid="602999" lat="41.3076556" lon="-7.7403493"/>
+ <node id="896603224" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:34Z" user="rtafav2" uid="602999" lat="41.3095997" lon="-7.7357623"/>
+ <node id="896603228" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:35Z" user="rtafav2" uid="602999" lat="41.3094423" lon="-7.7380977"/>
+ <node id="896603208" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:31Z" user="rtafav2" uid="602999" lat="41.3086153" lon="-7.7392284"/>
+  <node id="896610144" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:52Z" user="rtafav2" uid="602999" lat="41.3085974" lon="-7.7385746"/>
+  <node id="896610147" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:54Z" user="rtafav2" uid="602999" lat="41.3087186" lon="-7.7372205"/>
+  <node id="896610139" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:52Z" user="rtafav2" uid="602999" lat="41.3088093" lon="-7.7361410"/>
+  <node id="896610153" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:55Z" user="rtafav2" uid="602999" lat="41.3088711" lon="-7.7358941"/>
+  <node id="896610145" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:31:52Z" user="rtafav2" uid="602999" lat="41.3085633" lon="-7.7390380"/>
+  <node id="896603243" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:39Z" user="rtafav2" uid="602999" lat="41.3093154" lon="-7.7385428"/>
+ <node id="896603276" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:45Z" user="rtafav2" uid="602999" lat="41.3082217" lon="-7.7396046"/>
+ <node id="896603279" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:45Z" user="rtafav2" uid="602999" lat="41.3095113" lon="-7.7354998"/>
+ <node id="896603284" visible="true" version="4" changeset="11241662" timestamp="2012-04-09T17:31:47Z" user="rtafav2" uid="602999" lat="41.3066937" lon="-7.7413684"/>
+ <node id="896603293" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:50Z" user="rtafav2" uid="602999" lat="41.3069635" lon="-7.7411183"/>
+ <node id="896603295" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:50Z" user="rtafav2" uid="602999" lat="41.3096007" lon="-7.7362099"/>
+ <node id="896603298" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:50Z" user="rtafav2" uid="602999" lat="41.3093945" lon="-7.7383339"/>
+ <node id="896610136" visible="true" version="3" changeset="11241662" timestamp="2012-04-09T17:31:50Z" user="rtafav2" uid="602999" lat="41.3094889" lon="-7.7375462"/>
+ <node id="1029914195" visible="true" version="2" changeset="11241662" timestamp="2012-04-09T17:23:09Z" user="rtafav2" uid="602999" lat="41.3066229" lon="-7.7414550"/>
+ <node id="1708864504" visible="true" version="1" changeset="11241662" timestamp="2012-04-09T17:09:51Z" user="rtafav2" uid="602999" lat="41.3073506" lon="-7.7407058"/>
+ <node id="1708864615" visible="true" version="1" changeset="11241662" timestamp="2012-04-09T17:09:55Z" user="rtafav2" uid="602999" lat="41.3080704" lon="-7.7383338"/>
+ <node id="1708864634" visible="true" version="1" changeset="11241662" timestamp="2012-04-09T17:09:55Z" user="rtafav2" uid="602999" lat="41.3084366" lon="-7.7393947"/>
+ <node id="1708864829" visible="true" version="1" changeset="11241662" timestamp="2012-04-09T17:10:03Z" user="rtafav2" uid="602999" lat="41.3092168" lon="-7.7386899"/>
+ <node id="1708865035" visible="true" version="1" changeset="11241662" timestamp="2012-04-09T17:10:10Z" user="rtafav2" uid="602999" lat="41.3096165" lon="-7.7359882"/>
+ <way id="158741468" visible="true" version="2" changeset="17371684" timestamp="2013-08-16T13:16:54Z" user="joaoba2" uid="1711122">
+
+  <nd ref="896603223"/>
+  <nd ref="896603276"/>
+  <nd ref="1708864634"/>
+  <nd ref="896603208"/>
+  <nd ref="896603215"/>
+  <nd ref="1708864829"/>
+  
+  <tag k="highway" v="secondary"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Rua de Santa Iria"/>
+  <tag k="note" v="uncomplete"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="Bing"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="75953480" visible="true" version="4" changeset="66625673" timestamp="2019-01-25T09:20:56Z" user="Hispadat" uid="219376">
+   <nd ref="896603208"/>
+   <nd ref="896610145"/>
+   <nd ref="896610144"/>
+   <tag k="highway" v="residential"/>    
+   <tag k="name" v="Rua Maj. Antonio Fernandes Varão"/>
+   <tag k="source" v="Bing"/>
+   <tag k="surface" v="asphalt"/>
+ </way>
+</osm>

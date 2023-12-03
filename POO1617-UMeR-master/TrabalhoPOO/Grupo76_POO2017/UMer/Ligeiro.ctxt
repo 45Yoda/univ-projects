@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Ligeiro()
+comment1.params=vMed\ preco\ matricula\ loc
+comment1.target=Ligeiro(int,\ double,\ java.lang.String,\ Localizacao)
+comment2.params=l
+comment2.target=Ligeiro(Ligeiro)
+comment3.params=
+comment3.target=Ligeiro\ clone()
+comment4.params=o
+comment4.target=boolean\ equals(java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

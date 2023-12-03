@@ -1,0 +1,7 @@
+
+GLUT/Traffic/Debug/*
+GLUT/Traffic/Traffic.sln
+GLUT/Traffic/.vs/*
+GLUT/Traffic/Traffic/Debug/
+.vs
+GLUT/Traffic/Traffic/include/glm/out/
